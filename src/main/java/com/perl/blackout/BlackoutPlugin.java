@@ -11,7 +11,8 @@ public final class BlackoutPlugin extends JavaPlugin {
 
     public BlackoutPlugin(JavaPluginInit init) {
         super(init);
-        LOGGER.atInfo().log("Blackout %s initializing...", PatchManager.PATCHER_VERSION);
+        LOGGER.atInfo().log("Blackout %s initializing...", init.getPluginManifest().getVersion());
+        LOGGER.atInfo().log("Blackout Patchly %s initializing...", PatchManager.PATCHER_VERSION);
         patchManager = new PatchManager(this);
     }
 

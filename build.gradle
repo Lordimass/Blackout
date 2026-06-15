@@ -58,6 +58,11 @@ hytaleTools {
     debugSuspend = false
 
     requireDcevm = true
+
+    subPlugin('Defensive', 'com.perl.blackout.defensive.DefensivePlugin')
+    subPlugin('Offensive', 'com.perl.blackout.offensive.OffensivePlugin')
+    subPlugin('Progression', 'com.perl.blackout.progression.ProgressionPlugin')
+    subPlugin('World', 'com.perl.blackout.world.WorldPlugin')
 } 
 
 shadowJar {

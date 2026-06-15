@@ -30,5 +30,35 @@
     "IncludesAssetPack": true,
     "UpdateChecker": {
         "CurseForge": ""
-    }
+    },
+    "SubPlugins": [
+        {
+            "Name": "Defensive",
+            "Main": "com.perl.blackout.defensive.DefensivePlugin",
+            "ServerVersion": ">=0.5.0 <0.6.0",
+            "DisabledByDefault": false,
+            "IncludesAssetPack": false
+        },
+        {
+            "Name": "Offensive",
+            "Main": "com.perl.blackout.offensive.OffensivePlugin",
+            "ServerVersion": ">=0.5.0 <0.6.0",
+            "DisabledByDefault": false,
+            "IncludesAssetPack": false
+        },
+        {
+            "Name": "Progression",
+            "Main": "com.perl.blackout.progression.ProgressionPlugin",
+            "ServerVersion": ">=0.5.0 <0.6.0",
+            "DisabledByDefault": false,
+            "IncludesAssetPack": false
+        },
+        {
+            "Name": "World",
+            "Main": "com.perl.blackout.world.WorldPlugin",
+            "ServerVersion": ">=0.5.0 <0.6.0",
+            "DisabledByDefault": false,
+            "IncludesAssetPack": false
+        }
+    ]
 }
