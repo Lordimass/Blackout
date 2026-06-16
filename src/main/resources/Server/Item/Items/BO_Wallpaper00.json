@@ -10,61 +10,6 @@
     "Speed": 5,
     "HitSoundLayer": "SFX_Wood_Break"
   },
-  "BlockType": {
-    "DrawType": "Model",
-    "Gathering": {
-      "Breaking": {
-        "Quality": 1,
-        "ItemId": "BO_Wallpaper00",
-        "DropList": "BO_Wallpaper00_Droplist"
-      }
-    },
-    "PlacementSettings": {
-      "RotationMode": "FacingPlayer",
-      "BlockPreviewVisibility": "AlwaysVisible"
-    },
-    "BlockListAssetId": "BO_WallpaperType",
-    "IgnoreSupportWhenPlaced": true,
-    "CustomModelTexture": [
-      {
-        "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_00_texture.png"
-      }
-    ],
-    "CustomModel": "Items/Icons/ItemsGenerated/bo_wallpaper_00.blockymodel",
-    "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "ModifyInventory",
-            "ItemToAdd": {
-              "Id": "Ingredient_Bolt_Linen",
-              "Quantity": 1
-            },
-            "Next": {
-              "Type": "ChangeState",
-              "UseLatestTarget": true,
-              "UpdateBlockState": true,
-              "Changes": {
-                "default": "Wallpaper_Scratched_01"
-              }
-            }
-          }
-        ]
-      }
-    },
-    "State": {
-      "Definitions": {
-        "Wallpaper_Scratched_01": {
-          "DrawType": "Model",
-          "CustomModelTexture": [
-            {
-              "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_01_texture.png"
-            }
-          ]
-        }
-      }
-    }
-  },
   "Icon": "Icons/ItemsGenerated/BO_Wallpaper00.png",
   "IconProperties": {
     "Scale": 0.5,
@@ -81,5 +26,160 @@
   "TranslationProperties": {
     "Name": "Wallpaper00"
   },
-  "Parent": "Rock_Stone"
+  "Parent": "Rock_Stone",
+  "State": {
+    "Wallpaper_Scratched_01": {
+      "DrawType": "CubeWithModel",
+      "CustomModelTexture": [
+        {
+          "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_00_texture.png"
+        }
+      ],
+      "Interactions": {
+        "Use": {
+          "Interactions": [
+            {
+              "Type": "BlockCondition",
+              "UseLatestTarget": true,
+              "Matchers": [
+                {
+                  "Block": {
+                    "Tag": "Wallpaper"
+                  }
+                }
+              ],
+              "Next": {
+                "Type": "ChangeState",
+                "UseLatestTarget": true,
+                "Changes": {
+                  "default": "Wallpaper_Scratched_02"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "BlockType": "BO_Wallpaper00",
+      "Parent": "BO_Wallpaper00"
+    },
+    "Wallpaper_Scratched_02": {
+      "DrawType": "CubeWithModel",
+      "CustomModelTexture": [
+        {
+          "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_00_texture.png"
+        }
+      ],
+      "Interactions": {
+        "Use": {
+          "Interactions": [
+            {
+              "Type": "BlockCondition",
+              "UseLatestTarget": true,
+              "Matchers": [
+                {
+                  "Block": {
+                    "Id": "BO_Wallpaper00"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "BlockType": "BO_Wallpaper00"
+    }
+  },
+  "BlockType": {
+    "DrawType": "CubeWithModel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_00_texture.png"
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "BlockCondition",
+            "UseLatestTarget": true,
+            "Matchers": [
+              {
+                "Block": {
+                  "Id": "BO_Wallpaper00"
+                }
+              }
+            ],
+            "Next": {
+              "Type": "ChangeState",
+              "Changes": {
+                "default": "Wallpaper_Scratched_01",
+                "Wallpaper_Scratched_01": "Wallpaper_Svratched_02"
+              },
+              "UseLatestTarget": true
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Wallpaper_Scratched_01": {
+          "DrawType": "CubeWithModel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_02_texture.png"
+            }
+          ],
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "ChangeState",
+                  "UseLatestTarget": true,
+                  "Changes": {
+                    "Wallpaper_Scratched_01": "Wallpaper_Scratched_02"
+                  },
+                  "UpdateBlockState": true
+                }
+              ]
+            }
+          },
+          "Tags": {
+            "Wallpaper": []
+          }
+        },
+        "Wallpaper_Scratched_02": {
+          "DrawType": "CubeWithModel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Items/Icons/ItemsGenerated/bo_wallpaper_03_texture.png"
+            }
+          ],
+          "Interactions": {
+            "Use": {
+              "Interactions": [
+                {
+                  "Type": "BlockCondition",
+                  "UseLatestTarget": true,
+                  "Matchers": [
+                    {
+                      "Block": {
+                        "Id": "BO_Wallpaper00"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "Tags": {
+            "Wallpaper": []
+          }
+        }
+      }
+    }
+  },
+  "Tags": {
+    "Wallpaper": []
+  }
 }
