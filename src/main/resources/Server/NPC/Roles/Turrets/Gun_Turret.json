@@ -16,13 +16,13 @@
     "MaxHealth": 36,
     "HearingRange": 8,
     "ViewSector": 270,
-    "DropList": "Drop_Skeleton_Archer",
     "Appearance": "Gun_Turret",
     "FlockArray": { "Compute": "FlockArray" },
-    "Attack": "Skeleton_Archer_Bow_Shoot",
+    "Attack": "Gun_Turret_Shoot",
     "AttackDistance": 15,
     "CombatBehaviorDistance": 15,
     "TargetRange": 15,
-    "NameTranslationKey": { "Compute": "NameTranslationKey" }
+    "NameTranslationKey": { "Compute": "NameTranslationKey" },
+    "CombatRelativeTurnSpeed": 0.5
   }
 }
