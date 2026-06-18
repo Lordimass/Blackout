@@ -140,7 +140,6 @@ public final class WaveGameManager {
                 }
             }
             case ATTACK -> {
-                enemySpawnService.makeTrackedSeekersVulnerable(game, store);
                 if (elapsed >= config.roundDurationSeconds * 1000L) {
                     beginRest(world, game, now);
                 }
