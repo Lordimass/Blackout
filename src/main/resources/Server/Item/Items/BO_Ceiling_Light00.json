@@ -26,15 +26,20 @@
       }
     },
     "PlacementSettings": {
-      "RotationMode": "FacingPlayer",
-      "BlockPreviewVisibility": "AlwaysVisible"
+      "RotationMode": "Default",
+      "BlockPreviewVisibility": "Default",
+      "AllowRotationKey": true
     },
     "IgnoreSupportWhenPlaced": true,
     "Light": {
       "Color": "#aa8"
     },
     "CubeShadingMode": "Fullbright",
-    "Opacity": "Transparent"
+    "Opacity": "Transparent",
+    "VariantRotation": "UpDown",
+    "FlipType": "Symmetric",
+    "RotationYawPlacementOffset": "Ninety",
+    "RandomRotation": "None"
   },
   "Icon": "Icons/ItemsGenerated/BO_Ceiling_Light00.png",
   "IconProperties": {
@@ -52,5 +57,5 @@
   "TranslationProperties": {
     "Name": "Floor00"
   },
-  "Parent": "Rock_Stone_Cobble"
+  "Parent": "Rock_Bedrock"
 }

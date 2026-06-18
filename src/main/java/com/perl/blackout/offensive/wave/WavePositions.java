@@ -16,7 +16,7 @@ import java.util.Random;
  * the world thread while the instance is still generating). A position in an unloaded chunk is
  * simply treated as not-open.
  */
-final class WavePositions {
+public final class WavePositions {
 
     private static final int MAX_ATTEMPTS = 32;
 
@@ -40,7 +40,7 @@ final class WavePositions {
      * Finds an open position within {@code radius} (XZ) of the centre at the given Y.
      * Falls back to the centre if no open spot is found after a fixed number of attempts.
      */
-    static Vector3d findOpen(World world, double centerX, double centerZ, double y, double radius, Random random) {
+    public static Vector3d findOpen(World world, double centerX, double centerZ, double y, double radius, Random random) {
         int yi = (int) Math.floor(y);
         for (int attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
             double angle = random.nextDouble() * Math.PI * 2.0;

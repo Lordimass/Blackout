@@ -25,12 +25,11 @@
     "OptionalDependencies": {
         "Riprod:Patchly": "*"
     },
-    "DisabledByDefault": false,
-    "Main": "com.perl.blackout.BlackoutPlugin",
-    "IncludesAssetPack": true,
-    "UpdateChecker": {
-        "CurseForge": ""
+    "LoadBefore": {
+        
     },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": false,
     "SubPlugins": [
         {
             "Name": "Defensive",
@@ -60,5 +59,9 @@
             "DisabledByDefault": false,
             "IncludesAssetPack": false
         }
-    ]
+    ],
+    "Main": "com.perl.blackout.BlackoutPlugin",
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
 }

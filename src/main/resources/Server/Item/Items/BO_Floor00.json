@@ -30,7 +30,6 @@
       "BlockPreviewVisibility": "AlwaysVisible"
     },
     "HitboxType": "Block_Seven_Eighth",
-    "BlockListAssetId": "BO_WallpaperType",
     "IgnoreSupportWhenPlaced": true
   },
   "Icon": "Icons/ItemsGenerated/BO_Floor00.png",
@@ -49,5 +48,5 @@
   "TranslationProperties": {
     "Name": "Floor00"
   },
-  "Parent": "Rock_Stone_Cobble"
+  "Parent": "Rock_Bedrock"
 }

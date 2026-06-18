@@ -1,0 +1,178 @@
+{
+  "$NodeId": "Biome-d287580f-b11b-4189-b660-932132d6877d",
+  "Name": "Backrooms",
+  "Props": [
+    {
+      "$NodeId": "Runtime-0d808861-66ee-47a0-81ac-f975f0d28872",
+      "Skip": false,
+      "Runtime": 1,
+      "PropDistribution": {
+        "$NodeId": "PropDistributionAlgo.GridWave-16e0f671-98bc-49c6-8249-59a10d417a0c",
+        "Type": "PropDistributionAlgo",
+        "Skip": false,
+        "GridPoints": {
+          "$NodeId": "GridGen2D.GridWave-da16fe53-45a0-49ff-b630-73052f77328f",
+          "Type": "GridGen2D",
+          "OffsetX": 10,
+          "OffsetZ": 10,
+          "RepeatX": 64,
+          "RepeatZ": 64,
+          "Centered": true
+        },
+        "POIs": [],
+        "BaseTiles": [
+          {
+            "$NodeId": "AutoGroup.TileSet.GridWave-128090fa-9e78-48aa-aeae-87629d1dc217",
+            "Type": "AutoGroup",
+            "FolderPath": "Backroomsv1"
+          }
+        ],
+        "FancyTiles": [],
+        "Seed": {
+          "$NodeId": "Constant.Seed.GridWave-58dac572-a905-45f0-938c-42e9e279526d",
+          "Type": "Constant",
+          "Seed": "BackroomsMVP"
+        },
+        "Features": [
+          {
+            "$NodeId": "Debug.Feature.GridWave-956ab234-d708-47b8-a94e-72585bd9b481",
+            "Type": "Debug",
+            "Skip": false,
+            "WriteToConsole": false,
+            "ShowNotification": true,
+            "VisualizeGridPositions": false,
+            "VisualizeSectionBounds": false,
+            "DebugGrid": false,
+            "SkipFancyTiles": false,
+            "LimitSteps": false,
+            "MaxSteps": 20
+          },
+          {
+            "$NodeId": "SectionStorage.Feature.GridWave-4cf2bfbb-f986-4fdc-b816-7b33d88832dc",
+            "Type": "SectionStorage",
+            "Skip": false,
+            "WriteToWorldFolder": false,
+            "LimitSteps": "LimitSteps",
+            "CacheSize": 50,
+            "HorizontalSectionSize": 30,
+            "VerticalSectionSize": 0
+          },
+          {
+            "$NodeId": "Border.Feature.GridWave-30a505d9-afd3-464e-a6b3-42382b2bab43",
+            "Type": "Border",
+            "Skip": false,
+            "BorderType": "InnerBorder",
+            "BorderRuleSets": [
+              {
+                "$NodeId": "Simple.RuleSet.GridWave-b0000001-0000-4000-8000-000000000001",
+                "Type": "Simple",
+                "HorizontalRules": {
+                  "N": "0",
+                  "E": "0",
+                  "S": "0",
+                  "W": "0"
+                }
+              },
+              {
+                "$NodeId": "Simple.RuleSet.GridWave-dd53ed01-cbb0-406a-baf3-5c6b60039e4c",
+                "Type": "Simple",
+                "HorizontalRules": {
+                  "N": "1",
+                  "E": "1",
+                  "S": "1",
+                  "W": "1"
+                }
+              }
+            ]
+          }
+        ],
+        "MaxPositionsCount": 200000
+      }
+    }
+  ],
+  "$NodeEditorMetadata": {
+    "$Nodes": {
+      "Biome-d287580f-b11b-4189-b660-932132d6877d": {
+        "$Position": {
+          "$x": -4994,
+          "$y": -4100
+        },
+        "$Title": "[ROOT] Biome"
+      },
+      "Runtime-0d808861-66ee-47a0-81ac-f975f0d28872": {
+        "$Position": {
+          "$x": -4309,
+          "$y": -4021
+        }
+      },
+      "PropDistributionAlgo.GridWave-16e0f671-98bc-49c6-8249-59a10d417a0c": {
+        "$Position": {
+          "$x": -3664,
+          "$y": -3942
+        }
+      },
+      "AutoGroup.TileSet.GridWave-128090fa-9e78-48aa-aeae-87629d1dc217": {
+        "$Position": {
+          "$x": -2906,
+          "$y": -3870
+        }
+      },
+      "Constant.Seed.GridWave-58dac572-a905-45f0-938c-42e9e279526d": {
+        "$Position": {
+          "$x": -2907,
+          "$y": -3725
+        }
+      },
+      "SectionStorage.Feature.GridWave-4cf2bfbb-f986-4fdc-b816-7b33d88832dc": {
+        "$Position": {
+          "$x": -2906,
+          "$y": -3162
+        }
+      },
+      "Border.Feature.GridWave-30a505d9-afd3-464e-a6b3-42382b2bab43": {
+        "$Position": {
+          "$x": -2907,
+          "$y": -2902
+        }
+      },
+      "Simple.RuleSet.GridWave-b0000001-0000-4000-8000-000000000001": {
+        "$Position": {
+          "$x": -2182,
+          "$y": -3158
+        }
+      },
+      "Simple.RuleSet.GridWave-dd53ed01-cbb0-406a-baf3-5c6b60039e4c": {
+        "$Position": {
+          "$x": -2187,
+          "$y": -2846
+        }
+      },
+      "Debug.Feature.GridWave-956ab234-d708-47b8-a94e-72585bd9b481": {
+        "$Position": {
+          "$x": -2904,
+          "$y": -3577
+        }
+      },
+      "GridGen2D.GridWave-da16fe53-45a0-49ff-b630-73052f77328f": {
+        "$Position": {
+          "$x": -2904,
+          "$y": -4168
+        }
+      }
+    },
+    "$FloatingNodes": [],
+    "$Links": {},
+    "$Groups": [],
+    "$Comments": [],
+    "$WorkspaceID": "HytaleGenerator - Biome"
+  },
+  "Tags": {
+    "Blackout": [
+      "Blackout"
+    ]
+  },
+  "EnvironmentProvider": {
+    "Type": "Constant",
+    "Environment": "Blackout"
+  }
+}
