@@ -127,11 +127,6 @@ public final class WaveGameManager {
             return;
         }
 
-        topUpOxygen(store, game.getObjectiveRef());
-        for (Ref<EntityStore> enemy : game.getEnemies()) {
-            topUpOxygen(store, enemy);
-        }
-
         if (game.isObjectiveSpawned() && objectiveService.isDestroyed(game, store)) {
             endGame(world, game, true);
             return;
@@ -145,6 +140,7 @@ public final class WaveGameManager {
                 }
             }
             case ATTACK -> {
+                enemySpawnService.makeTrackedSeekersVulnerable(game, store);
                 if (elapsed >= config.roundDurationSeconds * 1000L) {
                     beginRest(world, game, now);
                 }
@@ -201,21 +197,6 @@ public final class WaveGameManager {
     private Vector3d resolvePlayerSpawn(World world) {
         return WavePositions.findOpen(world, config.playerSpawn.x, config.playerSpawn.z,
                 config.playerSpawn.y, PLAYER_SPAWN_SEARCH_RADIUS, random);
-    }
-
-    /** Tops an entity's oxygen back to full if it has dropped, preventing environmental drowning damage. */
-    private void topUpOxygen(Store<EntityStore> store, Ref<EntityStore> ref) {
-        if (ref == null || !ref.isValid()) {
-            return;
-        }
-        EntityStatMap stats = store.getComponent(ref, EntityStatMap.getComponentType());
-        if (stats == null) {
-            return;
-        }
-        EntityStatValue oxygen = stats.get(DefaultEntityStatTypes.getOxygen());
-        if (oxygen != null && oxygen.get() < oxygen.getMax()) {
-            stats.maximizeStatValue(DefaultEntityStatTypes.getOxygen());
-        }
     }
 
     private static void setTime(World world, Store<EntityStore> store, double dayTime) {
