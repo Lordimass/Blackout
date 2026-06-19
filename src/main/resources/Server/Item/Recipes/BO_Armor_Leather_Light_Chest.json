@@ -1,8 +1,8 @@
 {
   "Input": [
     {
-      "ItemId": "Ingredient_Stick",
-      "Quantity": 5
+      "ItemId": "Ingredient_Hide_Light",
+      "Quantity": 10
     }
   ],
   "PrimaryOutput": {
@@ -11,8 +11,8 @@
   },
   "Output": [
     {
-      "ItemId": "Wood_Softwood_Fence",
-      "Quantity": 2
+      "ItemId": "Armor_Leather_Light_Chest",
+      "Quantity": 1
     }
   ],
   "BenchRequirement": [
@@ -21,5 +21,6 @@
       "Id": "BlackoutSalvagebench"
     }
   ],
-  "TimeSeconds": 15
+  "TimeSeconds": 45,
+  "OutputQuantity": 1
 }
