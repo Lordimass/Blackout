@@ -299,16 +299,8 @@
       "x": -4,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -341,7 +333,7 @@
       "x": -4,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -532,8 +524,8 @@
       "x": -4,
       "y": 28,
       "z": -3,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -629,16 +621,8 @@
       "x": -4,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -671,7 +655,7 @@
       "x": -4,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -861,8 +845,8 @@
       "x": -4,
       "y": 28,
       "z": -2,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -948,16 +932,8 @@
       "x": -4,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -990,7 +966,7 @@
       "x": -4,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -1175,8 +1151,8 @@
       "x": -4,
       "y": 28,
       "z": -1,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -1262,16 +1238,8 @@
       "x": -4,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -1304,7 +1272,7 @@
       "x": -4,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -1489,8 +1457,8 @@
       "x": -4,
       "y": 28,
       "z": 0,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -1576,16 +1544,8 @@
       "x": -4,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -1618,7 +1578,7 @@
       "x": -4,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -1803,8 +1763,8 @@
       "x": -4,
       "y": 28,
       "z": 1,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -1890,16 +1850,8 @@
       "x": -4,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -1932,7 +1884,7 @@
       "x": -4,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -2117,8 +2069,8 @@
       "x": -4,
       "y": 28,
       "z": 2,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -2204,16 +2156,8 @@
       "x": -4,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -2246,7 +2190,7 @@
       "x": -4,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -2433,8 +2377,8 @@
       "x": -4,
       "y": 28,
       "z": 3,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -2520,16 +2464,8 @@
       "x": -4,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -2562,7 +2498,7 @@
       "x": -4,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -2749,8 +2685,8 @@
       "x": -4,
       "y": 28,
       "z": 4,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": -4,
@@ -2843,16 +2779,8 @@
       "x": -4,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -2885,7 +2813,7 @@
       "x": -4,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -4,
@@ -3080,8 +3008,7 @@
       "x": -4,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": -4,
@@ -3174,16 +3101,8 @@
       "x": -4,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -4,
@@ -3216,7 +3135,7 @@
       "x": -4,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -3,
@@ -3503,16 +3422,8 @@
       "x": -3,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -3543,8 +3454,7 @@
       "x": -3,
       "y": 47,
       "z": -4,
-      "name": "Build_Black_Cube",
-      "rotation": 2
+      "name": "Build_Black_Cube"
     },
     {
       "x": -3,
@@ -3821,16 +3731,8 @@
       "x": -3,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -4128,16 +4030,8 @@
       "x": -3,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -4169,7 +4063,7 @@
       "y": 47,
       "z": -2,
       "name": "Build_Black_Cube",
-      "rotation": 2
+      "rotation": 1
     },
     {
       "x": -3,
@@ -4440,16 +4334,8 @@
       "x": -3,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -4748,16 +4634,8 @@
       "x": -3,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -5056,16 +4934,8 @@
       "x": -3,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -5365,16 +5235,8 @@
       "x": -3,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -5674,16 +5536,8 @@
       "x": -3,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -5993,16 +5847,8 @@
       "x": -3,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -6223,8 +6069,7 @@
       "x": -3,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": -3,
@@ -6317,16 +6162,8 @@
       "x": -3,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -3,
@@ -6358,7 +6195,7 @@
       "y": 47,
       "z": 5,
       "name": "Build_Black_Cube",
-      "rotation": 2
+      "rotation": 1
     },
     {
       "x": -2,
@@ -6638,16 +6475,8 @@
       "x": -2,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -6678,7 +6507,7 @@
       "x": -2,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -6948,16 +6777,8 @@
       "x": -2,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -6988,7 +6809,8 @@
       "x": -2,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube",
+      "rotation": 2
     },
     {
       "x": -2,
@@ -7254,16 +7076,8 @@
       "x": -2,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -7294,7 +7108,7 @@
       "x": -2,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -7565,16 +7379,8 @@
       "x": -2,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -7605,7 +7411,7 @@
       "x": -2,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -7875,16 +7681,8 @@
       "x": -2,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -7915,7 +7713,7 @@
       "x": -2,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -8185,16 +7983,8 @@
       "x": -2,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -8225,7 +8015,7 @@
       "x": -2,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -8495,16 +8285,8 @@
       "x": -2,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -8535,7 +8317,7 @@
       "x": -2,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -8801,16 +8583,8 @@
       "x": -2,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -8841,7 +8615,7 @@
       "x": -2,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -9113,16 +8887,8 @@
       "x": -2,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -9153,7 +8919,7 @@
       "x": -2,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -2,
@@ -9342,8 +9108,7 @@
       "x": -2,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": -2,
@@ -9429,16 +9194,8 @@
       "x": -2,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -2,
@@ -9469,7 +9226,7 @@
       "x": -2,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -9749,16 +9506,8 @@
       "x": -1,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -9789,7 +9538,7 @@
       "x": -1,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -10058,16 +9807,8 @@
       "x": -1,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -10098,7 +9839,8 @@
       "x": -1,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube",
+      "rotation": 2
     },
     {
       "x": -1,
@@ -10363,16 +10105,8 @@
       "x": -1,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -10403,7 +10137,7 @@
       "x": -1,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -10674,16 +10408,8 @@
       "x": -1,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -10714,7 +10440,7 @@
       "x": -1,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -10986,16 +10712,8 @@
       "x": -1,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -11026,7 +10744,7 @@
       "x": -1,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -11298,16 +11016,8 @@
       "x": -1,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -11338,7 +11048,7 @@
       "x": -1,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -11607,16 +11317,8 @@
       "x": -1,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -11647,7 +11349,7 @@
       "x": -1,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -11804,7 +11506,8 @@
       "x": -1,
       "y": 24,
       "z": 3,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": -1,
@@ -11914,16 +11617,8 @@
       "x": -1,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -11954,7 +11649,7 @@
       "x": -1,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -12109,7 +11804,8 @@
       "x": -1,
       "y": 24,
       "z": 4,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": -1,
@@ -12219,16 +11915,8 @@
       "x": -1,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -12259,7 +11947,7 @@
       "x": -1,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": -1,
@@ -12448,8 +12136,7 @@
       "x": -1,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": -1,
@@ -12534,16 +12221,8 @@
       "x": -1,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": -1,
@@ -12574,7 +12253,7 @@
       "x": -1,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -12853,16 +12532,8 @@
       "x": 0,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 0,
@@ -12893,7 +12564,7 @@
       "x": 0,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -13162,16 +12833,8 @@
       "x": 0,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 0,
@@ -13202,7 +12865,8 @@
       "x": 0,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube",
+      "rotation": 2
     },
     {
       "x": 0,
@@ -13471,15 +13135,7 @@
       "x": 0,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -13511,7 +13167,7 @@
       "x": 0,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -13780,15 +13436,7 @@
       "x": 0,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -13820,7 +13468,7 @@
       "x": 0,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -14084,16 +13732,8 @@
       "x": 0,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 0,
@@ -14124,7 +13764,7 @@
       "x": 0,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -14388,16 +14028,8 @@
       "x": 0,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 0,
@@ -14428,7 +14060,7 @@
       "x": 0,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -14699,15 +14331,7 @@
       "x": 0,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -14739,7 +14363,7 @@
       "x": 0,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -14894,19 +14518,21 @@
       "x": 0,
       "y": 24,
       "z": 3,
-      "name": "BO_Floor00"
+      "name": "Empty"
     },
     {
       "x": 0,
       "y": 25,
       "z": 3,
-      "name": "BO_Wallpaper00"
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": 0,
       "y": 26,
       "z": 3,
-      "name": "BO_Wallpaper00"
+      "name": "BO_Wallpaper00",
+      "rotation": 3
     },
     {
       "x": 0,
@@ -15004,15 +14630,7 @@
       "x": 0,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -15044,7 +14662,7 @@
       "x": 0,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -15199,7 +14817,8 @@
       "x": 0,
       "y": 24,
       "z": 4,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 0,
@@ -15309,16 +14928,8 @@
       "x": 0,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 0,
@@ -15349,7 +14960,7 @@
       "x": 0,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 0,
@@ -15537,8 +15148,7 @@
       "x": 0,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": 0,
@@ -15623,16 +15233,8 @@
       "x": 0,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 0,
@@ -15663,7 +15265,7 @@
       "x": 0,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -15942,16 +15544,8 @@
       "x": 1,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 1,
@@ -15982,7 +15576,7 @@
       "x": 1,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -16251,16 +15845,8 @@
       "x": 1,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 1,
@@ -16291,7 +15877,8 @@
       "x": 1,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube",
+      "rotation": 2
     },
     {
       "x": 1,
@@ -16560,15 +16147,7 @@
       "x": 1,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -16600,7 +16179,7 @@
       "x": 1,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -16870,15 +16449,7 @@
       "x": 1,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -16910,7 +16481,7 @@
       "x": 1,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -17174,16 +16745,8 @@
       "x": 1,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 1,
@@ -17214,7 +16777,7 @@
       "x": 1,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -17478,16 +17041,8 @@
       "x": 1,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 1,
@@ -17518,7 +17073,7 @@
       "x": 1,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -17788,15 +17343,7 @@
       "x": 1,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -17828,7 +17375,7 @@
       "x": 1,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -17983,7 +17530,7 @@
       "x": 1,
       "y": 24,
       "z": 3,
-      "name": "BO_Floor00"
+      "name": "Empty"
     },
     {
       "x": 1,
@@ -18093,15 +17640,7 @@
       "x": 1,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "rotation": 2
     },
     {
@@ -18133,7 +17672,7 @@
       "x": 1,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -18288,7 +17827,8 @@
       "x": 1,
       "y": 24,
       "z": 4,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 1,
@@ -18392,22 +17932,13 @@
       "y": 41,
       "z": 4,
       "name": "BO_Pool_Surface00",
-      "rotation": 4
+      "support": 15
     },
     {
       "x": 1,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00"
     },
     {
       "x": 1,
@@ -18438,7 +17969,7 @@
       "x": 1,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 1,
@@ -18627,8 +18158,7 @@
       "x": 1,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": 1,
@@ -18707,22 +18237,13 @@
       "y": 41,
       "z": 5,
       "name": "BO_Pool_Surface00",
-      "rotation": 4
+      "support": 15
     },
     {
       "x": 1,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00"
     },
     {
       "x": 1,
@@ -18753,7 +18274,7 @@
       "x": 1,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -19032,16 +18553,8 @@
       "x": 2,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -19072,7 +18585,7 @@
       "x": 2,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -19341,16 +18854,8 @@
       "x": 2,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -19381,7 +18886,8 @@
       "x": 2,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube",
+      "rotation": 2
     },
     {
       "x": 2,
@@ -19651,16 +19157,8 @@
       "x": 2,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -19691,7 +19189,7 @@
       "x": 2,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -19955,16 +19453,8 @@
       "x": 2,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -19995,7 +19485,7 @@
       "x": 2,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -20263,16 +19753,8 @@
       "x": 2,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -20303,7 +19785,7 @@
       "x": 2,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -20571,16 +20053,8 @@
       "x": 2,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -20611,7 +20085,7 @@
       "x": 2,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -20766,7 +20240,7 @@
       "x": 2,
       "y": 24,
       "z": 2,
-      "name": "BO_Floor00"
+      "name": "Empty"
     },
     {
       "x": 2,
@@ -20879,16 +20353,8 @@
       "x": 2,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -20919,7 +20385,7 @@
       "x": 2,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -21074,7 +20540,7 @@
       "x": 2,
       "y": 24,
       "z": 3,
-      "name": "BO_Floor00"
+      "name": "Empty"
     },
     {
       "x": 2,
@@ -21184,16 +20650,8 @@
       "x": 2,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -21224,7 +20682,7 @@
       "x": 2,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -21379,7 +20837,8 @@
       "x": 2,
       "y": 24,
       "z": 4,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 2,
@@ -21489,16 +20948,8 @@
       "x": 2,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -21529,7 +20980,7 @@
       "x": 2,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 2,
@@ -21717,8 +21168,7 @@
       "x": 2,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": 2,
@@ -21803,16 +21253,8 @@
       "x": 2,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 2,
@@ -21843,7 +21285,7 @@
       "x": 2,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 3,
@@ -22123,16 +21565,8 @@
       "x": 3,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 3,
@@ -22163,7 +21597,7 @@
       "x": 3,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 3,
@@ -22440,16 +21874,8 @@
       "x": 3,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 3,
@@ -22480,2812 +21906,2745 @@
       "x": 3,
       "y": 47,
       "z": -3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": -2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": -2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": -2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": -2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": -2,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": -2,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": -2,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": -2,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": -2,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": -2,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": -2,
-      "name": "BO_Ceiling00"
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": -2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": -2,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": -2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": -1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": -1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": -1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": -1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": -1,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": -1,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": -1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": -1,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": -1,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": -1,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": -1,
-      "name": "BO_Ceiling00",
-      "rotation": 10
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": -1,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": -1,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": -1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": 0,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": 0,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": 0,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": 0,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": 0,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 0,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": 0,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": 0,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": 0,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": 0,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": 0,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": 0,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": 0,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": 0,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": 0,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": 0,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": 0,
-      "name": "BO_Ceiling00"
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": 0,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": 0,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": 1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": 1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": 1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": 1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": 1,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 1,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "support": 15
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": 1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": 1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": 1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": 1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": 1,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": 1,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": 1,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": 1,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": 1,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": 1,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": 1,
-      "name": "BO_Ceiling00"
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": 1,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": 1,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": 2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": 2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": 2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": 2,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": 2,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 2,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": 2,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": 2,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": 2,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": 2,
-      "name": "BO_Ceiling00",
-      "rotation": 10
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": 2,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": 2,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": 2,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": 3,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": 3,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": 3,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": 3,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": 3,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 3,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": 3,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": 3,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": 3,
-      "name": "BO_Wallpaper00",
-      "rotation": 1
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": 3,
-      "name": "BO_Wallpaper00",
-      "rotation": 1
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": 3,
-      "name": "BO_Wallpaper00",
-      "rotation": 1
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": 3,
-      "name": "BO_Ceiling00",
-      "rotation": 10
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": 3,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": 3,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": 3,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": 3,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": 3,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": 4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": 4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": 4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": 4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": 4,
-      "name": "Prototype_Rock_Concrete_Brick_Half",
-      "rotation": 8
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 4,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": 4,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": 4,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": 4,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": 4,
-      "name": "BO_Ceiling00",
-      "rotation": 10
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": 4,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": 4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": 4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": 4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": 4,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 0,
-      "z": 5,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 1,
-      "z": 5,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "z": 5,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 3,
-      "z": 5,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 8,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": 5,
-      "name": "Prototype_Rock_Concrete_Brick_Half"
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "z": 5,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 3,
-      "y": 11,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 13,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 14,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 15,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 16,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 17,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 18,
-      "z": 5,
-      "name": "Prototype_Rock_Concrete_Brick",
-      "rotation": 3
-    },
-    {
-      "x": 3,
-      "y": 19,
-      "z": 5,
-      "name": "Soil_Clay_Smooth_Yellow",
-      "rotation": 3
-    },
-    {
-      "x": 3,
-      "y": 20,
-      "z": 5,
-      "name": "Prototype_Rock_Concrete_Brick",
-      "rotation": 3
-    },
-    {
-      "x": 3,
-      "y": 21,
-      "z": 5,
-      "name": "Prototype_Rock_Concrete_Brick",
-      "rotation": 3
-    },
-    {
-      "x": 3,
-      "y": 22,
-      "z": 5,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 3,
-      "y": 23,
-      "z": 5,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 24,
-      "z": 5,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 25,
-      "z": 5,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 26,
-      "z": 5,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 27,
-      "z": 5,
-      "name": "BO_Wallpaper00"
-    },
-    {
-      "x": 3,
-      "y": 28,
-      "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
-    },
-    {
-      "x": 3,
-      "y": 29,
-      "z": 5,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 30,
-      "z": 5,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 31,
-      "z": 5,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 32,
-      "z": 5,
-      "name": "BO_Pool_Surface00"
-    },
-    {
-      "x": 3,
-      "y": 33,
-      "z": 5,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 34,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 35,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 36,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 37,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 38,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 39,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 40,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 41,
-      "z": 5,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 3,
-      "y": 42,
-      "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 43,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 44,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 45,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 3,
-      "y": 46,
-      "z": 5,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 3,
-      "y": 47,
-      "z": 5,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 0,
-      "z": -4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 1,
-      "z": -4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 2,
-      "z": -4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 3,
-      "z": -4,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 4,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 5,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 6,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 7,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 8,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 9,
-      "z": -4,
-      "name": "Prototype_Rock_Concrete_Brick_Half"
-    },
-    {
-      "x": 4,
-      "y": 10,
-      "z": -4,
-      "name": "Prototype_Rock_Concrete_Brick"
-    },
-    {
-      "x": 4,
-      "y": 11,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 12,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 13,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 14,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 16,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 17,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Black",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 18,
-      "z": -4,
-      "name": "Prototype_Rock_Concrete_Brick",
-      "rotation": 3
-    },
-    {
-      "x": 4,
-      "y": 19,
-      "z": -4,
-      "name": "Soil_Clay_Smooth_Yellow",
-      "rotation": 3
-    },
-    {
-      "x": 4,
-      "y": 20,
-      "z": -4,
-      "name": "Prototype_Rock_Concrete_Brick",
-      "rotation": 3
-    },
-    {
-      "x": 4,
-      "y": 21,
-      "z": -4,
-      "name": "Prototype_Rock_Concrete_Brick",
-      "rotation": 3
-    },
-    {
-      "x": 4,
-      "y": 22,
-      "z": -4,
-      "name": "BO_Floor00"
-    },
-    {
-      "x": 4,
-      "y": 23,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 24,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 25,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 26,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 27,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 28,
-      "z": -4,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
-    },
-    {
-      "x": 4,
-      "y": 29,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 30,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 31,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 32,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 33,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 34,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 35,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 36,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 37,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 38,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 39,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 40,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 41,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 42,
-      "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
-    },
-    {
-      "x": 4,
-      "y": 43,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 44,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 45,
-      "z": -4,
-      "name": "Empty"
-    },
-    {
-      "x": 4,
-      "y": 46,
-      "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 2
-    },
-    {
-      "x": 4,
-      "y": 47,
-      "z": -4,
       "name": "Build_Black_Cube",
       "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": -2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": -2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -2,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": -2,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": -2,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": -2,
+      "name": "BO_Wallpaper00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": -2,
+      "name": "BO_Wallpaper00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": -2,
+      "name": "BO_Wallpaper00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": -2,
+      "name": "BO_Ceiling00"
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": -2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": -2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": -2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": -2,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": -1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": -1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": -1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": -1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -1,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": -1,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": -1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": -1,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": -1,
+      "name": "BO_Floor00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": -1,
+      "name": "BO_Floor00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": -1,
+      "name": "BO_Ceiling00",
+      "rotation": 10
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": -1,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": -1,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": -1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": -1,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": -1,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 0,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 0,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 0,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 0,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 0,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 0,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 0,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 0,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 0,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": 0,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": 0,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": 0,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": 0,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": 0,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": 0,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": 0,
+      "name": "BO_Ceiling00"
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": 0,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": 0,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 1,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 1,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 1,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": 1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": 1,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": 1,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": 1,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": 1,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": 1,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": 1,
+      "name": "BO_Ceiling00"
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": 1,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": 1,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 2,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 2,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 2,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": 2,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": 2,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": 2,
+      "name": "BO_Floor00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": 2,
+      "name": "BO_Wallpaper00",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": 2,
+      "name": "BO_Wallpaper00",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": 2,
+      "name": "BO_Wallpaper00",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": 2,
+      "name": "BO_Ceiling00",
+      "rotation": 10
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": 2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": 2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": 2,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": 2,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": 2,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 3,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 3,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 3,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 3,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 3,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 3,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": 3,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": 3,
+      "name": "BO_Wallpaper00",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": 3,
+      "name": "BO_Wallpaper00",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": 3,
+      "name": "BO_Wallpaper00",
+      "rotation": 1
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": 3,
+      "name": "BO_Ceiling00",
+      "rotation": 10
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": 3,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": 3,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": 3,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": 3,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": 3,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": 3,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": 3,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 4,
+      "name": "Prototype_Rock_Concrete_Brick_Half",
+      "rotation": 8
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 4,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": 4,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": 4,
+      "name": "BO_Wallpaper00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": 4,
+      "name": "BO_Floor00",
+      "support": 15
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": 4,
+      "name": "BO_Ceiling00",
+      "rotation": 10
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": 4,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": 4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": 4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": 4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": 4,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": 4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": 4,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "z": 5,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "z": 5,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "z": 5,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "z": 5,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": 5,
+      "name": "Prototype_Rock_Concrete_Brick_Half"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "z": 5,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "z": 5,
+      "name": "Prototype_Rock_Concrete_Brick",
+      "rotation": 3
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "z": 5,
+      "name": "Soil_Clay_Smooth_Yellow",
+      "rotation": 3
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "z": 5,
+      "name": "Prototype_Rock_Concrete_Brick",
+      "rotation": 3
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "z": 5,
+      "name": "Prototype_Rock_Concrete_Brick",
+      "rotation": 3
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "z": 5,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "z": 5,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "z": 5,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "z": 5,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "z": 5,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "z": 5,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 28,
+      "z": 5,
+      "name": "BO_Wallpaper00"
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "z": 5,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 30,
+      "z": 5,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 31,
+      "z": 5,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 32,
+      "z": 5,
+      "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": 3,
+      "y": 33,
+      "z": 5,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 34,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 35,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 37,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 38,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 39,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 40,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 41,
+      "z": 5,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 42,
+      "z": 5,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 3,
+      "y": 43,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 44,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 45,
+      "z": 5,
+      "name": "Empty"
+    },
+    {
+      "x": 3,
+      "y": 46,
+      "z": 5,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 3,
+      "y": 47,
+      "z": 5,
+      "name": "Build_Black_Cube"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "z": -4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "z": -4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": -4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "z": -4,
+      "name": "BO_Parking_Blacktop",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "z": -4,
+      "name": "Prototype_Rock_Concrete_Brick_Half"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "z": -4,
+      "name": "Prototype_Rock_Concrete_Brick"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Black",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "z": -4,
+      "name": "Prototype_Rock_Concrete_Brick",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "z": -4,
+      "name": "Soil_Clay_Smooth_Yellow",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 20,
+      "z": -4,
+      "name": "Prototype_Rock_Concrete_Brick",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 21,
+      "z": -4,
+      "name": "Prototype_Rock_Concrete_Brick",
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 22,
+      "z": -4,
+      "name": "BO_Floor00"
+    },
+    {
+      "x": 4,
+      "y": 23,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 24,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 25,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 26,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 27,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 28,
+      "z": -4,
+      "name": "BO_Wallpaper00",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 29,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 30,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 31,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 32,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 33,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 34,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 35,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 36,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 37,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 38,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 39,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 40,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 41,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 42,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
+    },
+    {
+      "x": 4,
+      "y": 43,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 44,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 45,
+      "z": -4,
+      "name": "Empty"
+    },
+    {
+      "x": 4,
+      "y": 46,
+      "z": -4,
+      "name": "BO_Pool_Surface00",
+      "rotation": 2
+    },
+    {
+      "x": 4,
+      "y": 47,
+      "z": -4,
+      "name": "Build_Black_Cube"
     },
     {
       "x": 4,
@@ -25567,16 +24926,8 @@
       "x": 4,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -25884,16 +25235,8 @@
       "x": 4,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -25924,7 +25267,8 @@
       "x": 4,
       "y": 47,
       "z": -2,
-      "name": "Build_Black_Cube"
+      "name": "Build_Black_Cube",
+      "rotation": 1
     },
     {
       "x": 4,
@@ -26073,14 +25417,15 @@
       "x": 4,
       "y": 23,
       "z": -1,
-      "name": "BO_Wallpaper00",
-      "rotation": 2
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
       "y": 24,
       "z": -1,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
@@ -26191,16 +25536,8 @@
       "x": 4,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -26231,7 +25568,8 @@
       "x": 4,
       "y": 47,
       "z": -1,
-      "name": "Build_Black_Cube"
+      "name": "Build_Black_Cube",
+      "rotation": 1
     },
     {
       "x": 4,
@@ -26380,13 +25718,15 @@
       "x": 4,
       "y": 23,
       "z": 0,
-      "name": "Empty"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
       "y": 24,
       "z": 0,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
@@ -26497,16 +25837,8 @@
       "x": 4,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -26537,7 +25869,8 @@
       "x": 4,
       "y": 47,
       "z": 0,
-      "name": "Build_Black_Cube"
+      "name": "Build_Black_Cube",
+      "rotation": 1
     },
     {
       "x": 4,
@@ -26686,13 +26019,15 @@
       "x": 4,
       "y": 23,
       "z": 1,
-      "name": "Empty"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
       "y": 24,
       "z": 1,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
@@ -26803,16 +26138,8 @@
       "x": 4,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -26843,7 +26170,8 @@
       "x": 4,
       "y": 47,
       "z": 1,
-      "name": "Build_Black_Cube"
+      "name": "Build_Black_Cube",
+      "rotation": 1
     },
     {
       "x": 4,
@@ -26998,7 +26326,8 @@
       "x": 4,
       "y": 24,
       "z": 2,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
@@ -27109,16 +26438,8 @@
       "x": 4,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -27149,7 +26470,8 @@
       "x": 4,
       "y": 47,
       "z": 2,
-      "name": "Build_Black_Cube"
+      "name": "Build_Black_Cube",
+      "rotation": 1
     },
     {
       "x": 4,
@@ -27298,13 +26620,15 @@
       "x": 4,
       "y": 23,
       "z": 3,
-      "name": "Empty"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
       "y": 24,
       "z": 3,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
@@ -27415,16 +26739,8 @@
       "x": 4,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -27455,7 +26771,8 @@
       "x": 4,
       "y": 47,
       "z": 3,
-      "name": "Build_Black_Cube"
+      "name": "Build_Black_Cube",
+      "rotation": 1
     },
     {
       "x": 4,
@@ -27611,7 +26928,8 @@
       "x": 4,
       "y": 24,
       "z": 4,
-      "name": "BO_Floor00"
+      "name": "BO_Floor00",
+      "support": 15
     },
     {
       "x": 4,
@@ -27729,16 +27047,8 @@
       "x": 4,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -27960,8 +27270,7 @@
       "x": 4,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00"
     },
     {
       "x": 4,
@@ -28054,16 +27363,8 @@
       "x": 4,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 4,
@@ -28094,8 +27395,7 @@
       "x": 4,
       "y": 47,
       "z": 5,
-      "name": "Build_Black_Cube",
-      "rotation": 2
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -28391,16 +27691,8 @@
       "x": 5,
       "y": 42,
       "z": -4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -28433,7 +27725,7 @@
       "x": 5,
       "y": 47,
       "z": -4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -28627,8 +27919,8 @@
       "x": 5,
       "y": 28,
       "z": -3,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -28725,16 +28017,8 @@
       "x": 5,
       "y": 42,
       "z": -3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -28767,7 +28051,7 @@
       "x": 5,
       "y": 47,
       "z": -3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -28957,8 +28241,8 @@
       "x": 5,
       "y": 28,
       "z": -2,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -29043,16 +28327,7 @@
       "x": 5,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00"
     },
     {
       "x": 5,
@@ -29085,7 +28360,7 @@
       "x": 5,
       "y": 47,
       "z": -2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -29274,8 +28549,8 @@
       "x": 5,
       "y": 28,
       "z": -1,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -29361,16 +28636,8 @@
       "x": 5,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -29403,7 +28670,7 @@
       "x": 5,
       "y": 47,
       "z": -1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -29592,8 +28859,8 @@
       "x": 5,
       "y": 28,
       "z": 0,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -29679,16 +28946,8 @@
       "x": 5,
       "y": 42,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -29721,7 +28980,7 @@
       "x": 5,
       "y": 47,
       "z": 0,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -29910,8 +29169,8 @@
       "x": 5,
       "y": 28,
       "z": 1,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -29997,16 +29256,8 @@
       "x": 5,
       "y": 42,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -30039,7 +29290,7 @@
       "x": 5,
       "y": 47,
       "z": 1,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -30228,8 +29479,8 @@
       "x": 5,
       "y": 28,
       "z": 2,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -30315,16 +29566,8 @@
       "x": 5,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -30357,7 +29600,7 @@
       "x": 5,
       "y": 47,
       "z": 2,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -30546,8 +29789,8 @@
       "x": 5,
       "y": 28,
       "z": 3,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -30633,16 +29876,8 @@
       "x": 5,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -30675,7 +29910,7 @@
       "x": 5,
       "y": 47,
       "z": 3,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -30864,8 +30099,8 @@
       "x": 5,
       "y": 28,
       "z": 4,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -30958,16 +30193,8 @@
       "x": 5,
       "y": 42,
       "z": 4,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -31000,7 +30227,7 @@
       "x": 5,
       "y": 47,
       "z": 4,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     },
     {
       "x": 5,
@@ -31193,8 +30420,8 @@
       "x": 5,
       "y": 28,
       "z": 5,
-      "name": "BO_Ceiling00",
-      "rotation": 10
+      "name": "BO_Wallpaper00",
+      "rotation": 1
     },
     {
       "x": 5,
@@ -31287,16 +30514,8 @@
       "x": 5,
       "y": 42,
       "z": 5,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
-      "components": {
-        "Components": {
-          "BlackoutCycleState": {
-            "OnState": "Day",
-            "OffState": "Night"
-          }
-        }
-      },
-      "rotation": 2
+      "name": "BO_Pool_Surface00",
+      "rotation": 4
     },
     {
       "x": 5,
@@ -31329,7 +30548,7 @@
       "x": 5,
       "y": 47,
       "z": 5,
-      "name": "Empty"
+      "name": "Build_Black_Cube"
     }
   ],
   "fluids": [

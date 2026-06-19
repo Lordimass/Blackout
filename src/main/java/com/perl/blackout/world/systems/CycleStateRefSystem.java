@@ -42,7 +42,9 @@ public final class CycleStateRefSystem extends RefSystem<ChunkStore> {
             return;
         }
 
-        CyclePhase.applyState(commandBuffer, blockStateInfo.getChunkRef(), blockStateInfo.getIndex(), stateName);
+        Ref<ChunkStore> chunkRef = blockStateInfo.getChunkRef();
+        int index = blockStateInfo.getIndex();
+        commandBuffer.run(deferredStore -> CyclePhase.applyState(deferredStore, chunkRef, index, stateName));
     }
 
     @Override

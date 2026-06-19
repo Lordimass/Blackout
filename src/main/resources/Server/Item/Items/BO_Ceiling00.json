@@ -10,7 +10,7 @@
   },
   "BlockType": {
     "CustomModel": "Blocks/bo_ceiling/bo_ceiling_00.blockymodel",
-    "DrawType": "Model",
+    "DrawType": "Cube",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/bo_ceiling/bo_ceiling_00.png"
@@ -22,7 +22,12 @@
     },
     "IgnoreSupportWhenPlaced": true,
     "Material": "Solid",
-    "Opacity": "Solid"
+    "Opacity": "Solid",
+    "Textures": [
+      {
+        "All": "Blocks/bo_ceiling/bo_ceiling_00_blockface.png"
+      }
+    ]
   },
   "Icon": "Icons/ItemsGenerated/BO_Ceiling00.png",
   "IconProperties": {

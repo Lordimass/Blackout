@@ -16,12 +16,6 @@
         "GatherType": "Rocks"
       }
     },
-    "Textures": [
-      {
-        "Weight": 1,
-        "All": "BlockTextures/Build_Lightsource_White.png"
-      }
-    ],
     "BlockSoundSetId": "Crystal",
     "PhysicalMaterialId": "Stone",
     "CubeShadingMode": "Fullbright",
@@ -40,27 +34,28 @@
           "Light": {
             "Color": "#eee"
           },
-          "Textures": [
-            {
-              "Weight": 1,
-              "All": "BlockTextures/Build_Lightsource_White.png"
-            }
-          ]
+          "DrawType": "Cube"
         },
         "Night": {
           "Light": {
             "Color": "#05d"
           },
+          "DrawType": "Cube",
           "Textures": [
             {
-              "Weight": 1,
               "All": "BlockTextures/Dev_Lightsource_Blue_Side.png"
             }
           ]
         }
       }
     },
-    "DrawType": "Cube"
+    "DrawType": "Cube",
+    "RequiresAlphaBlending": false,
+    "Textures": [
+      {
+        "All": "BlockTextures/Build_Lightsource_White.png"
+      }
+    ]
   },
   "Categories": [
     "Tool.TechnicalBlocks"
