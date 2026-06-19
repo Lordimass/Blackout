@@ -18,11 +18,12 @@ import com.hypixel.hytale.math.util.ChunkUtil;
 import com.hypixel.hytale.math.vector.Rotation3f;
 import com.hypixel.hytale.server.core.inventory.ItemStack;
 import com.hypixel.hytale.server.core.modules.entity.item.ItemComponent;
-import com.hypixel.hytale.server.core.modules.time.WorldTimeResource;
 import com.hypixel.hytale.server.core.universe.PlayerRef;
 import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.perl.blackout.offensive.OffensivePlugin;
+import com.perl.blackout.world.resources.WorldCycleStateResource;
+import com.perl.blackout.world.systems.CyclePhase;
 
 /**
  * Owns the wave games (one per Backrooms instance world) and drives their phase transitions.
@@ -38,8 +39,10 @@ import com.perl.blackout.offensive.OffensivePlugin;
 public final class WaveGameManager {
 
     private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
-    private static final double TIME_MIDNIGHT = 0.0; // night
-    private static final double TIME_NOON = 0.5;     // day
+    /** {@link CyclePhase}/{@link WorldCycleStateResource} arg that lights the world (REST). */
+    private static final boolean PHASE_LIT = true;
+    /** {@link CyclePhase}/{@link WorldCycleStateResource} arg that darkens the world (ATTACK). */
+    private static final boolean PHASE_DARK = false;
 
     /** Block id of the crafting machine that, when placed in an instance, becomes the bench. */
     public static final String BENCH_BLOCK_ID = "BO_CraftingMachine";
@@ -122,8 +125,7 @@ public final class WaveGameManager {
         }
         Store<EntityStore> store = world.getEntityStore().getStore();
 
-        world.getWorldConfig().setGameTimePaused(true);
-        setTime(world, store, TIME_NOON);
+        setLightPhase(world, store, PHASE_LIT);
 
         game.startPhase(WavePhase.REST, System.currentTimeMillis());
         game.setInitialized(true);
@@ -160,8 +162,8 @@ public final class WaveGameManager {
                 if (elapsed >= config.attackDurationSeconds * 1000L) {
                     beginRest(world, game, now);
                 } else {
-                    // Keep enemies pointed at the bench (or nearest player) throughout the night.
-                    world.execute(() -> objectiveService.applyTargeting(game, store, world));
+                    world.execute(() ->
+                            objectiveService.applyTargeting(game, world.getEntityStore().getStore(), world));
                 }
             }
             default -> {
@@ -177,7 +179,7 @@ public final class WaveGameManager {
         WaveConfig.Floor floor = config.findFloor(game.getFloor());
         world.execute(() -> {
             Store<EntityStore> store = world.getEntityStore().getStore();
-            setTime(world, store, TIME_MIDNIGHT);
+            setLightPhase(world, store, PHASE_DARK);
             enemySpawnService.spawnFloorEnemies(game, store, world, config, floor);
             objectiveService.applyTargeting(game, store, world);
         });
@@ -189,7 +191,7 @@ public final class WaveGameManager {
                 "Rest " + config.restDurationSeconds + "s until the next night.", true);
         world.execute(() -> {
             Store<EntityStore> store = world.getEntityStore().getStore();
-            setTime(world, store, TIME_NOON);
+            setLightPhase(world, store, PHASE_LIT);
             enemySpawnService.despawnAll(game, store);
         });
     }
@@ -258,11 +260,17 @@ public final class WaveGameManager {
 
     // ── Helpers ──
 
-    private static void setTime(World world, Store<EntityStore> store, double dayTime) {
-        WorldTimeResource time = store.getResource(WorldTimeResource.getResourceType());
-        if (time != null) {
-            time.setDayTime(dayTime, world, store);
+    /**
+     * Drives the world blackout phase (the new world light system): {@code dark=true} switches all
+     * configured light blocks off, {@code dark=false} switches them on. Replaces the old day/night
+     * clock control. Must run on the world thread.
+     */
+    private static void setLightPhase(World world, Store<EntityStore> store, boolean lit) {
+        WorldCycleStateResource state = store.getResource(WorldCycleStateResource.getResourceType());
+        if (state != null) {
+            state.setOn(lit);
         }
+        CyclePhase.applyPhaseToWorld(world, lit);
     }
 
     private boolean matchesInstance(World world) {
