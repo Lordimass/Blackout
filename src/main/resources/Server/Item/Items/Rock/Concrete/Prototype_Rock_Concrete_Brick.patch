@@ -1,0 +1,9 @@
+{
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Unbreakable"
+      }
+    }
+  }
+}
