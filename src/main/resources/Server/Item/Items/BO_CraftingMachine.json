@@ -1,15 +1,15 @@
 {
   "Icon": "Icons/ItemsGenerated/BO_CraftingMachine.png",
   "IconProperties": {
-    "Scale": 0.5,
+    "Scale": 0.25,
     "Rotation": [
-      30,
+      14,
       45,
       15
     ],
     "Translation": [
-      -4,
-      -4
+      2,
+      -35
     ]
   },
   "TranslationProperties": {
@@ -24,33 +24,70 @@
     "Speed": 3,
     "HitSoundLayer": "SFX_Stone_Break"
   },
-  "Parent": "Rock_Stone",
   "BlockType": {
-    "DrawType": "CubeWithModel",
+    "DrawType": "Model",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/bo_crafting_machine_texture.png"
+        "Texture": "Blocks/bo_core/The_Core_Texture.png"
       }
     ],
     "Bench": {
-      "Type": "Crafting",
-      "Id": "BO_CraftingMachine",
-      "Categories": [
+      "Type": "Processing",
+      "Input": [
         {
-          "Id": "BO_Tools",
-          "Name": "Tools",
-          "Icon": "Icons/CraftingCategories/Workbench/Tools.png"
+          "FilterValidIngredients": true
         }
       ],
-      "LocalOpenSoundEventId": "SFX_Workbench_Open",
-      "LocalCloseSoundEventId": "SFX_Workbench_Close",
-      "CompletedSoundEventId": "SFX_Workbench_Craft",
-      "FailedSoundEventId": "SFX_Generic_Crafting_Failed"
+      "AllowNoInputProcessing": false,
+      "OutputSlotsCount": 1,
+      "TierLevels": [
+        {}
+      ],
+      "Id": "Blackout"
     },
     "BlockEntity": {
       "Components": {
-        "BenchBlock": {}
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    },
+    "CustomModel": "Blocks/bo_core/The Core.blockymodel",
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "HitboxType": "BO_CraftingMachine",
+    "AllowsMultipleUsers": false,
+    "InteractionHitboxType": "BO_CraftingMachine",
+    "Support": {
+      "Down": []
+    },
+    "Interactions": {
+      "Use": "Open_Processing_Bench"
+    },
+    "State": {
+      "Definitions": {
+        "Processing": {
+          "Looping": true,
+          "Particles": [
+            {
+              "SystemId": "Fire_Furnace_On",
+              "TargetNodeName": "Fire",
+              "Scale": 0.7,
+              "PositionOffset": {
+                "X": 0,
+                "Z": 0.3
+              }
+            }
+          ],
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing"
+        },
+        "ProcessCompleted": {
+          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
+          "Looping": true
+        }
       }
     }
-  }
+  },
+  "UsePlayerAnimations": false,
+  "PlayerAnimationsId": "Block",
+  "Scale": 0.75
 }
