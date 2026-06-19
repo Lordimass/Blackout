@@ -11,6 +11,7 @@ import com.hypixel.hytale.math.util.ChunkUtil;
 import com.hypixel.hytale.protocol.SoundCategory;
 import com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType;
 import com.hypixel.hytale.server.core.modules.block.BlockModule;
+import com.hypixel.hytale.server.core.modules.block.BlockModule.BlockStateInfo;
 import com.hypixel.hytale.server.core.universe.world.SoundUtil;
 import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.chunk.WorldChunk;
@@ -24,12 +25,11 @@ public final class CyclePhase {
 
     public static void applyPhaseToWorld(@Nonnull World world, boolean on) {
         Store<ChunkStore> store = world.getChunkStore().getStore();
-        Query<ChunkStore> query = Query.and(CycelStateComponent.getComponentType(), BlockModule.BlockStateInfo.getComponentType());
+        Query<ChunkStore> query = Query.and(CycelStateComponent.getComponentType(), BlockStateInfo.getComponentType());
         store.forEachChunk(query, (archetypeChunk, commandBuffer) -> {
             for (int i = 0; i < archetypeChunk.size(); i++) {
                 CycelStateComponent component = archetypeChunk.getComponent(i, CycelStateComponent.getComponentType());
-                BlockModule.BlockStateInfo blockStateInfo =
-                        archetypeChunk.getComponent(i, BlockModule.BlockStateInfo.getComponentType());
+                BlockStateInfo blockStateInfo = archetypeChunk.getComponent(i, BlockStateInfo.getComponentType());
                 if (component == null || blockStateInfo == null) {
                     continue;
                 }
@@ -39,20 +39,19 @@ public final class CyclePhase {
         });
     }
 
-    // silent state sync used on block load/placement, where a transition sound would be undesirable
     static void applyState(@Nonnull ComponentAccessor<ChunkStore> accessor,
-                           @Nonnull Ref<ChunkStore> chunkRef,
-                           int blockIndex,
-                           @Nullable String stateName) {
+            @Nonnull Ref<ChunkStore> chunkRef,
+            int blockIndex,
+            @Nullable String stateName) {
         apply(null, accessor, chunkRef, blockIndex, stateName, 0);
     }
 
     private static void apply(@Nullable World world,
-                              @Nonnull ComponentAccessor<ChunkStore> accessor,
-                              @Nonnull Ref<ChunkStore> chunkRef,
-                              int blockIndex,
-                              @Nullable String stateName,
-                              int soundIndex) {
+            @Nonnull ComponentAccessor<ChunkStore> accessor,
+            @Nonnull Ref<ChunkStore> chunkRef,
+            int blockIndex,
+            @Nullable String stateName,
+            int soundIndex) {
         if (!chunkRef.isValid()) {
             return;
         }

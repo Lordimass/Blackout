@@ -11,9 +11,7 @@ import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.perl.blackout.world.commands.BlackoutCommand;
 import com.perl.blackout.world.components.CycelStateComponent;
 import com.perl.blackout.world.craft.CraftAltarBreakHandler;
-import com.perl.blackout.world.craft.CraftAltarManager;
 import com.perl.blackout.world.craft.CraftAltarPlacementHandler;
-import com.perl.blackout.world.craft.CraftAltarSystem;
 import com.perl.blackout.world.resources.WorldCycleStateResource;
 import com.perl.blackout.world.systems.CycleStateRefSystem;
 import com.perl.blackout.world.systems.WorldCycleDriverSystem;
@@ -28,18 +26,11 @@ public class WorldPlugin extends JavaPlugin {
 
     @Override
     protected void setup() {
-        CraftAltarManager.getInstance();
-
-        getEntityStoreRegistry().registerSystem(new CraftAltarSystem());
         getEntityStoreRegistry().registerSystem(new CraftAltarPlacementHandler());
         getEntityStoreRegistry().registerSystem(new CraftAltarBreakHandler());
 
-        getEventRegistry().registerGlobal(RemoveWorldEvent.class,
-                event -> CraftAltarManager.getInstance().onWorldRemoved(event.getWorld()));
-
         LOGGER.atInfo().log("Craft altar system ready.");
 
-        // component must register before the systems so getQuery() sees a non-null type
         ComponentType<ChunkStore, CycelStateComponent> cycleComponentType =
                 getChunkStoreRegistry().registerComponent(CycelStateComponent.class, "BlackoutCycleState", CycelStateComponent.CODEC);
         CycelStateComponent.setComponentType(cycleComponentType);
@@ -58,7 +49,6 @@ public class WorldPlugin extends JavaPlugin {
 
     @Override
     protected void shutdown() {
-        CraftAltarManager.getInstance().shutdown();
         super.shutdown();
     }
 }
