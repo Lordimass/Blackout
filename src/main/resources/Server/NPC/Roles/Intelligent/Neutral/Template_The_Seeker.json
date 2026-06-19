@@ -36,6 +36,10 @@
       "Value": 40,
       "Description": "Range within which an alerted Seeker pursues its target (the marked workbench or nearest player)"
     },
+    "LockedTargetRange": {
+      "Value": 256,
+      "Description": "Range within which a force-marked wave target can pull the Seeker into pursuit"
+    },
     "AttackDistance": {
       "Value": 2.5,
       "Description": "The distance at which an NPC will execute attacks"
@@ -436,8 +440,9 @@
               "$Comment": "Pursue a force-marked objective (e.g. the workbench) even though its attitude is Ignore and it can't be sensed by sight/sound.",
               "Sensor": {
                 "Type": "Target",
+                "TargetSlot": "LockedTarget",
                 "Range": {
-                  "Compute": "AlertedRange"
+                  "Compute": "LockedTargetRange"
                 }
               },
               "Actions": [
@@ -572,6 +577,7 @@
               "Continue": true,
               "Sensor": {
                 "Type": "Target",
+                "TargetSlot": "LockedTarget",
                 "Range": {
                   "Compute": "AttackDistance + 1"
                 }
@@ -609,8 +615,9 @@
             {
               "Sensor": {
                 "Type": "Target",
+                "TargetSlot": "LockedTarget",
                 "Range": {
-                  "Compute": "AlertedRange"
+                  "Compute": "LockedTargetRange"
                 }
               },
               "BodyMotion": {

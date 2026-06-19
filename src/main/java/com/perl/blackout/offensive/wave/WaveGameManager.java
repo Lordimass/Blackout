@@ -46,6 +46,8 @@ public final class WaveGameManager {
 
     /** Block id of the crafting machine that, when placed in an instance, becomes the bench. */
     public static final String BENCH_BLOCK_ID = "BO_CraftingMachine";
+    /** NPC role spawned inside the crafting machine so enemies can target the bench. */
+    public static final String BENCH_NPC_ROLE = "BO_CraftingMachineTarget";
     /** Block id used to clear (break) a block in the world. */
     private static final String EMPTY_BLOCK = "Empty";
 

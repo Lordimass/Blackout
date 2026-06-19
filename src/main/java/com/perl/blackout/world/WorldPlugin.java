@@ -9,6 +9,7 @@ import com.hypixel.hytale.server.core.universe.world.events.RemoveWorldEvent;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.perl.blackout.world.commands.BlackoutCommand;
+import com.perl.blackout.world.craft.CraftAltarBreathingHandler;
 import com.perl.blackout.world.components.CycelStateComponent;
 import com.perl.blackout.world.craft.CraftAltarBreakHandler;
 import com.perl.blackout.world.craft.CraftAltarPlacementHandler;
@@ -28,6 +29,7 @@ public class WorldPlugin extends JavaPlugin {
     protected void setup() {
         getEntityStoreRegistry().registerSystem(new CraftAltarPlacementHandler());
         getEntityStoreRegistry().registerSystem(new CraftAltarBreakHandler());
+        getEntityStoreRegistry().registerSystem(new CraftAltarBreathingHandler());
 
         LOGGER.atInfo().log("Craft altar system ready.");
 
