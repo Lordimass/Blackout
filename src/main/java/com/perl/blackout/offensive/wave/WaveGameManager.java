@@ -50,10 +50,13 @@ public final class WaveGameManager {
     public static final String BENCH_NPC_ROLE = "BO_CraftingMachineTarget";
     /** Block id used to clear (break) a block in the world. */
     private static final String EMPTY_BLOCK = "Empty";
+    /** Blocks within which a player's lit flashlight scares a Seeker (~the Seeker's view range). */
+    private static final double FLASHLIGHT_SCARE_RANGE = 16.0;
 
     private final WaveConfig config;
     private final EnemySpawnService enemySpawnService = new EnemySpawnService();
     private final ObjectiveService objectiveService = new ObjectiveService();
+    private final FlashlightScareService flashlightScareService = new FlashlightScareService(FLASHLIGHT_SCARE_RANGE);
     private final Map<World, WaveGame> games = new ConcurrentHashMap<>();
 
     public WaveGameManager(OffensivePlugin plugin) {
@@ -164,8 +167,11 @@ public final class WaveGameManager {
                 if (elapsed >= config.attackDurationSeconds * 1000L) {
                     beginRest(world, game, now);
                 } else {
-                    world.execute(() ->
-                            objectiveService.applyTargeting(game, world.getEntityStore().getStore(), world));
+                    world.execute(() -> {
+                        Store<EntityStore> attackStore = world.getEntityStore().getStore();
+                        objectiveService.applyTargeting(game, attackStore, world);
+                        flashlightScareService.apply(game, attackStore, world);
+                    });
                 }
             }
             default -> {

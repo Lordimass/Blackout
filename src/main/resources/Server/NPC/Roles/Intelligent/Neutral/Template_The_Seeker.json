@@ -55,33 +55,12 @@
       ],
       "Description": "How long the Seeker remains scared after it loses sight of the light source"
     },
-    "VeryDarkLightRange": {
+    "DarkRGBLightRange": {
       "Value": [
         0,
-        2
+        0
       ],
-      "Description": "Peaceful->Angry when light is in this range (very dark). MUST NOT overlap EnterPeacefulLightRange, or the state ping-pongs forever."
-    },
-    "NormalLightRange": {
-      "Value": [
-        60,
-        100
-      ],
-      "Description": "Light range that makes the Seeker peaceful"
-    },
-    "EnterAngryLightRange": {
-      "Value": [
-        0,
-        3
-      ],
-      "Description": "Light range that changes the Seeker from scared into angry"
-    },
-    "EnterPeacefulLightRange": {
-      "Value": [
-        8,
-        100
-      ],
-      "Description": "Angry/Scared->Peaceful when light is in this range. Floor is 8 (not 3) to leave a wide gap above VeryDarkLightRange's 2 (light 3-7 holds the current state), so moving across a light gradient can't ping-pong the state."
+      "Description": "Per-channel block-light range (Red, Green AND Blue) that counts as darkness. The Seeker turns Angry only when ALL three block-light channels fall in this range; it returns to Peaceful as soon as any channel leaves it. [0,0] = no block light at all. Block-light channels only, so sky/daylight is ignored and this works indoors at any time of day. NOTE: the engine reads these as 0-100 percentages of the internal 0-15 light scale (abs = round(pct * 0.15)), which is why the old combined-Light range of [0,2] silently collapsed to 'absolute 0 only'."
     },
     "AttackSequence": {
       "Value": "Component_Instruction_Attack_Sequence_Seeker",
@@ -89,11 +68,10 @@
     },
     "FlashlightItems": {
       "Value": [
-        "Flashlight",
         "BO_Flashlight"
       ],
       "TypeHint": "String",
-      "Description": "Items that count as medium light sources for Seeker behavior"
+      "Description": "Legacy item-list parameter for role-side ItemInHand filters. The active flashlight scare logic is handled by FlashlightScareService, because SetState swaps the held stack to generated item ids such as '*BO_Flashlight_State_On' and only the On state carries Light."
     },
     "NameTranslationKey": {
       "Value": "Template_The_Seeker",
@@ -149,22 +127,11 @@
           },
           "Instructions": [
             {
+              "$Comment": "A lit flashlight nearby scares the Seeker. The 'FlashlightNear' flag is set each tick by the plugin's FlashlightScareService when a player holding an ON flashlight is within range; the role can't read a held item's on/off state itself (on/off is an item-state swap, and sight filters only match item ids).",
               "Sensor": {
-                "Reference": "Component_Sensor_Sight_With_Light_By_Attitude",
-                "Modify": {
-                  "ViewRange": {
-                    "Compute": "ViewRange"
-                  },
-                  "Attitudes": [
-                    "Hostile",
-                    "Neutral"
-                  ],
-                  "Items": {
-                    "Compute": "FlashlightItems"
-                  },
-                  "Moving": false,
-                  "GetNPCs": false
-                }
+                "Type": "Flag",
+                "Name": "FlashlightNear",
+                "Set": true
               },
               "Actions": [
                 {
@@ -174,10 +141,17 @@
               ]
             },
             {
+              "$Comment": "Total darkness (no block light of any colour) makes the Seeker angry. Block-light channels only, so daylight/sky exposure never keeps it calm indoors.",
               "Sensor": {
                 "Type": "Light",
-                "LightRange": {
-                  "Compute": "VeryDarkLightRange"
+                "RedLightRange": {
+                  "Compute": "DarkRGBLightRange"
+                },
+                "GreenLightRange": {
+                  "Compute": "DarkRGBLightRange"
+                },
+                "BlueLightRange": {
+                  "Compute": "DarkRGBLightRange"
                 }
               },
               "Actions": [
@@ -262,57 +236,11 @@
               ]
             },
             {
+              "$Comment": "Stop being scared once no lit flashlight is near (FlashlightNear cleared). Wait out ScaredDuration first so it doesn't flip back the instant the light leaves range. The player-in-range Flee below drives the actual retreat while scared.",
               "Sensor": {
-                "Reference": "Component_Sensor_Sight_With_Light_By_Attitude",
-                "Modify": {
-                  "ViewRange": {
-                    "Compute": "ViewRange"
-                  },
-                  "Attitudes": [
-                    "Hostile",
-                    "Neutral"
-                  ],
-                  "Items": {
-                    "Compute": "FlashlightItems"
-                  },
-                  "Moving": false,
-                  "GetNPCs": false
-                }
-              },
-              "BodyMotion": {
-                "Type": "Flee",
-                "SlowDownDistance": {
-                  "Compute": "FleeRange"
-                },
-                "StopDistance": {
-                  "Compute": "FleeRange + 2"
-                },
-                "RelativeSpeed": 1
-              },
-              "HeadMotion": {
-                "Type": "Watch"
-              }
-            },
-            {
-              "Sensor": {
-                "Type": "Not",
-                "Sensor": {
-                  "Reference": "Component_Sensor_Sight_With_Light_By_Attitude",
-                  "Modify": {
-                    "ViewRange": {
-                      "Compute": "ViewRange"
-                    },
-                    "Attitudes": [
-                      "Hostile",
-                      "Neutral"
-                    ],
-                    "Items": {
-                      "Compute": "FlashlightItems"
-                    },
-                    "Moving": false,
-                    "GetNPCs": false
-                  }
-                }
+                "Type": "Flag",
+                "Name": "FlashlightNear",
+                "Set": false
               },
               "ActionsAtomic": true,
               "Actions": [
@@ -371,22 +299,11 @@
           },
           "Instructions": [
             {
+              "$Comment": "A lit flashlight nearby (FlashlightNear flag) scares the Seeker even while angry/attacking: drop the target and flee.",
               "Sensor": {
-                "Reference": "Component_Sensor_Sight_With_Light_By_Attitude",
-                "Modify": {
-                  "ViewRange": {
-                    "Compute": "ViewRange"
-                  },
-                  "Attitudes": [
-                    "Hostile",
-                    "Neutral"
-                  ],
-                  "Items": {
-                    "Compute": "FlashlightItems"
-                  },
-                  "Moving": false,
-                  "GetNPCs": false
-                }
+                "Type": "Flag",
+                "Name": "FlashlightNear",
+                "Set": true
               },
               "Actions": [
                 {
@@ -396,16 +313,23 @@
                   "Type": "State",
                   "State": "Scared"
                 }
-              ],
-              "HeadMotion": {
-                "Type": "Watch"
-              }
+              ]
             },
             {
+              "$Comment": "Any block light at all (a placed torch/lamp lights the tile) calms the Seeker back to Peaceful. Exact inverse of the darkness trigger, so there is no overlap and no state ping-pong.",
               "Sensor": {
-                "Type": "Light",
-                "LightRange": {
-                  "Compute": "EnterPeacefulLightRange"
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "Light",
+                  "RedLightRange": {
+                    "Compute": "DarkRGBLightRange"
+                  },
+                  "GreenLightRange": {
+                    "Compute": "DarkRGBLightRange"
+                  },
+                  "BlueLightRange": {
+                    "Compute": "DarkRGBLightRange"
+                  }
                 }
               },
               "Actions": [
@@ -521,22 +445,11 @@
           },
           "Instructions": [
             {
+              "$Comment": "A lit flashlight nearby (FlashlightNear flag) scares the Seeker even while angry/attacking: drop the target and flee.",
               "Sensor": {
-                "Reference": "Component_Sensor_Sight_With_Light_By_Attitude",
-                "Modify": {
-                  "ViewRange": {
-                    "Compute": "ViewRange"
-                  },
-                  "Attitudes": [
-                    "Hostile",
-                    "Neutral"
-                  ],
-                  "Items": {
-                    "Compute": "FlashlightItems"
-                  },
-                  "Moving": false,
-                  "GetNPCs": false
-                }
+                "Type": "Flag",
+                "Name": "FlashlightNear",
+                "Set": true
               },
               "Actions": [
                 {
@@ -546,17 +459,23 @@
                   "Type": "State",
                   "State": "Scared"
                 }
-              ],
-              "HeadMotion": {
-                "Type": "Watch"
-              }
+              ]
             },
             {
-              "$Comment": "Bright enough to calm down even mid-fight: drop the target and return to peaceful.",
+              "$Comment": "Any block light calms it down even mid-fight: drop the target and return to peaceful. Block-light channels only (inverse of the darkness trigger).",
               "Sensor": {
-                "Type": "Light",
-                "LightRange": {
-                  "Compute": "EnterPeacefulLightRange"
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "Light",
+                  "RedLightRange": {
+                    "Compute": "DarkRGBLightRange"
+                  },
+                  "GreenLightRange": {
+                    "Compute": "DarkRGBLightRange"
+                  },
+                  "BlueLightRange": {
+                    "Compute": "DarkRGBLightRange"
+                  }
                 }
               },
               "Actions": [
