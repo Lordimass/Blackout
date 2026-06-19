@@ -33,8 +33,12 @@
       "Description": "Hearing range in blocks"
     },
     "AlertedRange": {
-      "Value": 30,
-      "Description": "A range within which the player can be seen/sensed when the NPC is alerted to their presence"
+      "Value": 40,
+      "Description": "Range within which an alerted Seeker pursues its target (the marked workbench or nearest player)"
+    },
+    "LockedTargetRange": {
+      "Value": 256,
+      "Description": "Range within which a force-marked wave target can pull the Seeker into pursuit"
     },
     "AttackDistance": {
       "Value": 2.5,
@@ -54,9 +58,9 @@
     "VeryDarkLightRange": {
       "Value": [
         0,
-        24
+        2
       ],
-      "Description": "Light range that makes the Seeker angry"
+      "Description": "Peaceful->Angry when light is in this range (very dark). MUST NOT overlap EnterPeacefulLightRange, or the state ping-pongs forever."
     },
     "NormalLightRange": {
       "Value": [
@@ -68,16 +72,16 @@
     "EnterAngryLightRange": {
       "Value": [
         0,
-        19
+        3
       ],
       "Description": "Light range that changes the Seeker from scared into angry"
     },
     "EnterPeacefulLightRange": {
       "Value": [
-        30,
+        8,
         100
       ],
-      "Description": "Light range that changes the Seeker from scared or angry into peaceful"
+      "Description": "Angry/Scared->Peaceful when light is in this range. Floor is 8 (not 3) to leave a wide gap above VeryDarkLightRange's 2 (light 3-7 holds the current state), so moving across a light gradient can't ping-pong the state."
     },
     "AttackSequence": {
       "Value": "Component_Instruction_Attack_Sequence_Seeker",
@@ -433,6 +437,27 @@
               ]
             },
             {
+              "$Comment": "Pursue a force-marked objective (e.g. the workbench) even though its attitude is Ignore and it can't be sensed by sight/sound.",
+              "Sensor": {
+                "Type": "Target",
+                "TargetSlot": "LockedTarget",
+                "Range": {
+                  "Compute": "LockedTargetRange"
+                }
+              },
+              "Actions": [
+                {
+                  "Type": "OverrideAttitude",
+                  "Attitude": "Hostile",
+                  "Duration": 120
+                },
+                {
+                  "Type": "State",
+                  "State": "Attack"
+                }
+              ]
+            },
+            {
               "Sensor": {
                 "Type": "Or",
                 "Sensors": [
@@ -552,6 +577,7 @@
               "Continue": true,
               "Sensor": {
                 "Type": "Target",
+                "TargetSlot": "LockedTarget",
                 "Range": {
                   "Compute": "AttackDistance + 1"
                 }
@@ -589,8 +615,9 @@
             {
               "Sensor": {
                 "Type": "Target",
+                "TargetSlot": "LockedTarget",
                 "Range": {
-                  "Compute": "AlertedRange"
+                  "Compute": "LockedTargetRange"
                 }
               },
               "BodyMotion": {

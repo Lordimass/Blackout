@@ -19,6 +19,7 @@ import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.hypixel.hytale.server.npc.NPCPlugin;
 import com.hypixel.hytale.server.npc.entities.NPCEntity;
 import com.hypixel.hytale.server.npc.role.Role;
+import com.hypixel.hytale.server.npc.role.support.MarkedEntitySupport;
 
 /**
  * Manages the optional defended bench NPC and points enemies at their target each tick:
@@ -28,9 +29,7 @@ final class ObjectiveService {
 
     private static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
     /** Target slot consumed by NPC roles that pursue a marked entity. */
-    private static final String TARGET_SLOT = "LockedTarget";
-    /** NPC role spawned on a placed crafting machine; enemies prefer to attack it. */
-    static final String BENCH_NPC_ROLE = "BO_Altar";
+    private static final String TARGET_SLOT = MarkedEntitySupport.DEFAULT_TARGET_SLOT;
     /** Health applied to the bench NPC on spawn. */
     static final float BENCH_MAX_HEALTH = 200.0f;
 
@@ -38,17 +37,19 @@ final class ObjectiveService {
     @Nullable
     Ref<EntityStore> spawnBench(Store<EntityStore> store, Vector3d position) {
         try {
-            var result = NPCPlugin.get().spawnNPC(store, BENCH_NPC_ROLE, null, position, new Rotation3f(0.0f, 0.0f, 0.0f));
+            var result = NPCPlugin.get().spawnNPC(store, WaveGameManager.BENCH_NPC_ROLE, null, position,
+                    new Rotation3f(0.0f, 0.0f, 0.0f));
             Ref<EntityStore> ref = result != null ? result.first() : null;
             if (ref == null) {
-                LOGGER.atWarning().log("Failed to spawn bench NPC '%s'", BENCH_NPC_ROLE);
+                LOGGER.atWarning().log("Failed to spawn bench NPC '%s'", WaveGameManager.BENCH_NPC_ROLE);
                 return null;
             }
             EntityStatMap stats = store.getComponent(ref, EntityStatMap.getComponentType());
             if (stats != null) {
                 stats.setStatValue(DefaultEntityStatTypes.getHealth(), BENCH_MAX_HEALTH);
             }
-            LOGGER.atInfo().log("Spawned bench NPC '%s' with %s HP", BENCH_NPC_ROLE, BENCH_MAX_HEALTH);
+            LOGGER.atInfo().log("Spawned bench NPC '%s' with %s HP", WaveGameManager.BENCH_NPC_ROLE,
+                    BENCH_MAX_HEALTH);
             return ref;
         } catch (Exception e) {
             LOGGER.atWarning().withCause(e).log("Error spawning bench NPC");
