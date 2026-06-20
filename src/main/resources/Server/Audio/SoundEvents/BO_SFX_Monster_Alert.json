@@ -1,0 +1,19 @@
+{
+  "Parent": "SFX_Torch_On_Loop",
+  "Layers": [
+    {
+      "Looping": false,
+      "Files": [
+        "Sounds/Monster_Alert.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -0.384,
+        "MaxVolume": 0.36
+      }
+    }
+  ],
+  "MaxDistance": 9,
+  "SpatialBlend": 0.124,
+  "MaxInstance": 8,
+  "StartAttenuationDistance": 2
+}

@@ -1,0 +1,17 @@
+{
+  "Parent": "SFX_Torch_On_Loop",
+  "MaxDistance": 9,
+  "SpatialBlend": 0.124,
+  "MaxInstance": 3,
+  "StartAttenuationDistance": 2,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Seeker_Ambiant.ogg"
+      ],
+      "Volume": -15.08,
+      "Looping": false
+    }
+  ],
+  "Volume": 10
+}

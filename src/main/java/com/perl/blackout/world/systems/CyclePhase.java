@@ -22,7 +22,7 @@ import com.hypixel.hytale.server.core.universe.world.accessor.BlockAccessor;
 import com.hypixel.hytale.server.core.universe.world.chunk.BlockComponentChunk;
 import com.hypixel.hytale.server.core.universe.world.chunk.WorldChunk;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
-import com.perl.blackout.world.components.CycelStateComponent;
+import com.perl.blackout.world.components.CycleStateComponent;
 
 public final class CyclePhase {
 
@@ -41,28 +41,32 @@ public final class CyclePhase {
             }
 
             WorldChunk worldChunk = store.getComponent(chunkRef, WorldChunk.getComponentType());
-            BlockComponentChunk blockComponentChunk = store.getComponent(chunkRef, BlockComponentChunk.getComponentType());
+            BlockComponentChunk blockComponentChunk = store.getComponent(chunkRef,
+                    BlockComponentChunk.getComponentType());
             if (worldChunk == null || blockComponentChunk == null) {
                 continue;
             }
 
             IntSet handled = new IntOpenHashSet();
 
-            for (Int2ReferenceMap.Entry<Ref<ChunkStore>> entry : blockComponentChunk.getEntityReferences().int2ReferenceEntrySet()) {
+            for (Int2ReferenceMap.Entry<Ref<ChunkStore>> entry : blockComponentChunk.getEntityReferences()
+                    .int2ReferenceEntrySet()) {
                 int blockIndex = entry.getIntKey();
                 handled.add(blockIndex);
-                CycelStateComponent component = store.getComponent(entry.getValue(), CycelStateComponent.getComponentType());
+                CycleStateComponent component = store.getComponent(entry.getValue(),
+                        CycleStateComponent.getComponentType());
                 if (component != null) {
                     applyAtBlock(world, worldChunk, blockIndex, component.stateFor(on), component.soundIndexFor(on));
                 }
             }
 
-            for (Int2ObjectMap.Entry<Holder<ChunkStore>> entry : blockComponentChunk.getEntityHolders().int2ObjectEntrySet()) {
+            for (Int2ObjectMap.Entry<Holder<ChunkStore>> entry : blockComponentChunk.getEntityHolders()
+                    .int2ObjectEntrySet()) {
                 int blockIndex = entry.getIntKey();
                 if (!handled.add(blockIndex)) {
                     continue;
                 }
-                CycelStateComponent component = entry.getValue().getComponent(CycelStateComponent.getComponentType());
+                CycleStateComponent component = entry.getValue().getComponent(CycleStateComponent.getComponentType());
                 if (component != null) {
                     applyAtBlock(world, worldChunk, blockIndex, component.stateFor(on), component.soundIndexFor(on));
                 }

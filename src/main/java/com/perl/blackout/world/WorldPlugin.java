@@ -8,7 +8,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.perl.blackout.world.commands.BlackoutCommand;
-import com.perl.blackout.world.components.CycelStateComponent;
+import com.perl.blackout.world.components.CycleStateComponent;
 import com.perl.blackout.world.craft.CraftAltarBreakHandler;
 import com.perl.blackout.world.craft.CraftAltarBreathingHandler;
 import com.perl.blackout.world.craft.CraftAltarPlacementHandler;
@@ -31,9 +31,9 @@ public class WorldPlugin extends JavaPlugin {
 
         LOGGER.atInfo().log("Craft altar system ready.");
 
-        ComponentType<ChunkStore, CycelStateComponent> cycleComponentType =
-                getChunkStoreRegistry().registerComponent(CycelStateComponent.class, "BlackoutCycleState", CycelStateComponent.CODEC);
-        CycelStateComponent.setComponentType(cycleComponentType);
+        ComponentType<ChunkStore, CycleStateComponent> cycleComponentType =
+                getChunkStoreRegistry().registerComponent(CycleStateComponent.class, "BlackoutCycleState", CycleStateComponent.CODEC);
+        CycleStateComponent.setComponentType(cycleComponentType);
 
         ResourceType<EntityStore, WorldCycleStateResource> cycleResourceType =
                 getEntityStoreRegistry().registerResource(WorldCycleStateResource.class, "BlackoutWorldCycleState", WorldCycleStateResource.CODEC);

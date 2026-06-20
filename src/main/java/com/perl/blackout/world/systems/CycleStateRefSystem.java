@@ -12,14 +12,14 @@ import com.hypixel.hytale.component.system.RefSystem;
 import com.hypixel.hytale.server.core.modules.block.BlockModule.BlockStateInfo;
 import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
-import com.perl.blackout.world.components.CycelStateComponent;
+import com.perl.blackout.world.components.CycleStateComponent;
 import com.perl.blackout.world.resources.WorldCycleStateResource;
 
 public final class CycleStateRefSystem extends RefSystem<ChunkStore> {
 
     @Override
     public Query<ChunkStore> getQuery() {
-        return Query.and(CycelStateComponent.getComponentType(), BlockStateInfo.getComponentType());
+        return Query.and(CycleStateComponent.getComponentType(), BlockStateInfo.getComponentType());
     }
 
     @Override
@@ -31,7 +31,7 @@ public final class CycleStateRefSystem extends RefSystem<ChunkStore> {
             return;
         }
 
-        CycelStateComponent component = commandBuffer.getComponent(ref, CycelStateComponent.getComponentType());
+        CycleStateComponent component = commandBuffer.getComponent(ref, CycleStateComponent.getComponentType());
         BlockStateInfo blockStateInfo = commandBuffer.getComponent(ref, BlockStateInfo.getComponentType());
         if (component == null || blockStateInfo == null) {
             return;

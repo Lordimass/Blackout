@@ -1,0 +1,7 @@
+{
+  "Type": "Charging",
+  "DisplayProgress": false,
+  "Next": {
+    "0": "Weapon_Daggers_Primary_Chain"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "MaxDistance": 24,
+  "SpatialBlend": 0.124,
+  "MaxInstance": 8,
+  "StartAttenuationDistance": 2,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Turret_Fire_1.ogg",
+        "Sounds/Turret_Fire_2.ogg",
+        "Sounds/Turret_Fire_3.ogg"
+      ],
+      "Volume": 10,
+      "Looping": false,
+      "RandomSettings": {
+        "MinPitch": -0.768,
+        "MaxPitch": 0.384
+      }
+    }
+  ]
+}

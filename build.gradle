@@ -24,7 +24,7 @@ base {
 
 configurations {
     shadowBundle
-    implementation.extendsFrom(shadowBundle)
+    // implementation.extendsFrom(shadowBundle)
     testCompileOnly.extendsFrom(compileOnly)
     testRuntimeOnly.extendsFrom(compileOnly)
 }

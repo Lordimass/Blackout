@@ -13,7 +13,7 @@
       "Description": "Model to be used"
     },
     "MaxHealth": {
-      "Value": 180,
+      "Value": 200,
       "Description": "Max health for the NPC"
     },
     "EatItem": {
@@ -113,6 +113,31 @@
   "Instructions": [
     {
       "Instructions": [
+        {
+          "$Comment": "ambient drone replays on a clip-length timer while the seeker is in any non-peaceful state. the sound event is one-shot because there is no role action to stop a looping sound, so re-triggering is the only way to make it stop when the seeker calms to peaceful.",
+          "Continue": true,
+          "ActionsBlocking": true,
+          "Sensor": {
+            "Type": "Not",
+            "Sensor": {
+              "Type": "State",
+              "State": "Peaceful"
+            }
+          },
+          "Actions": [
+            {
+              "Type": "PlaySound",
+              "SoundEventId": "BO_SFX_Monster_Seeker_Ambiant"
+            },
+            {
+              "Type": "Timeout",
+              "Delay": [
+                24,
+                24
+              ]
+            }
+          ]
+        },
         {
           "Sensor": {
             "Type": "State",
@@ -363,6 +388,11 @@
               },
               "Actions": [
                 {
+                  "Type": "PlaySound",
+                  "Once": true,
+                  "SoundEventId": "BO_SFX_Monster_Alert"
+                },
+                {
                   "Type": "SpawnParticles",
                   "Offset": [
                     0,
@@ -516,6 +546,11 @@
               },
               "ActionsBlocking": true,
               "Actions": [
+                {
+                  "Type": "PlaySound",
+                  "Once": true,
+                  "SoundEventId": "BO_SFX_Monster_Attack"
+                },
                 {
                   "Type": "Timeout",
                   "Delay": [
