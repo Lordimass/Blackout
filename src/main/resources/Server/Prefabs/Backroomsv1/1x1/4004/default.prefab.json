@@ -1165,6 +1165,22 @@
     },
     {
       "x": -2,
+      "y": 4,
+      "z": 0,
+      "name": "BO_Parking_Bollard",
+      "support": 15,
+      "rotation": 2
+    },
+    {
+      "x": -2,
+      "y": 5,
+      "z": 0,
+      "name": "BO_Parking_Bollard",
+      "filler": 1024,
+      "rotation": 2
+    },
+    {
+      "x": -2,
       "y": 9,
       "z": 0,
       "name": "Prototype_Rock_Concrete_Brick_Half",
@@ -1805,8 +1821,23 @@
       "x": -1,
       "y": 9,
       "z": 4,
-      "name": "Build_Lightsource_White",
-      "rotation": 5
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active",
+            "OnSound": "Garage_Alarm_Disable"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "rotation": 4
     },
     {
       "x": -1,
@@ -2005,6 +2036,22 @@
     },
     {
       "x": 0,
+      "y": 4,
+      "z": -2,
+      "name": "BO_Parking_Bollard",
+      "support": 15,
+      "rotation": 3
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "z": -2,
+      "name": "BO_Parking_Bollard",
+      "filler": 1024,
+      "rotation": 3
+    },
+    {
+      "x": 0,
       "y": 9,
       "z": -2,
       "name": "Prototype_Rock_Concrete_Brick_Half",
@@ -2259,8 +2306,23 @@
       "x": 0,
       "y": 9,
       "z": 4,
-      "name": "Build_Lightsource_White",
-      "rotation": 5
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active",
+            "OnSound": "Garage_Alarm_Disable"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "rotation": 4
     },
     {
       "x": 0,
@@ -3908,8 +3970,22 @@
       "x": 4,
       "y": 9,
       "z": -1,
-      "name": "Build_Lightsource_White",
-      "rotation": 5
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active",
+            "OnSound": "Garage_Alarm_Disable"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      }
     },
     {
       "x": 4,
@@ -3956,8 +4032,22 @@
       "x": 4,
       "y": 9,
       "z": 0,
-      "name": "Build_Lightsource_White",
-      "rotation": 5
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active",
+            "OnSound": "Garage_Alarm_Disable"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      }
     },
     {
       "x": 4,

@@ -114,7 +114,6 @@
     {
       "Instructions": [
         {
-          "$Comment": "ambient drone replays on a clip-length timer while the seeker is in any non-peaceful state. the sound event is one-shot because there is no role action to stop a looping sound, so re-triggering is the only way to make it stop when the seeker calms to peaceful.",
           "Continue": true,
           "ActionsBlocking": true,
           "Sensor": {

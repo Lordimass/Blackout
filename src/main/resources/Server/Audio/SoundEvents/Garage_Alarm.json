@@ -1,0 +1,16 @@
+{
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": 0,
+        "MaxVolume": 0
+      },
+      "Files": [
+        "Sounds/Garage_Alarm_1.ogg"
+      ],
+      "RoundRobinHistorySize": 0,
+      "Looping": true
+    }
+  ],
+  "MaxDistance": 8
+}

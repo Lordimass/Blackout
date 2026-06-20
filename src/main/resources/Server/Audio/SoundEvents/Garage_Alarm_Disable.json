@@ -1,0 +1,15 @@
+{
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": 0,
+        "MaxVolume": 0
+      },
+      "Files": [
+        "Sounds/Alarm_Disabled.ogg"
+      ],
+      "RoundRobinHistorySize": 0
+    }
+  ],
+  "MaxDistance": 16
+}

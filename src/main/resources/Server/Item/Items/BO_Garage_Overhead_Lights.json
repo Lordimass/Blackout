@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "Garage Lights"
+  },
+  "Icon": "Icons/ItemsGenerated/Build_Lightsource_White.png",
+  "SubCategory": "LightSources",
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Group": "Dev",
+    "HitboxType": "Full",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockSoundSetId": "Crystal",
+    "PhysicalMaterialId": "Stone",
+    "CubeShadingMode": "Fullbright",
+    "VariantRotation": "Pipe",
+    "BlockEntity": {
+      "Components": {
+        "BlackoutCycleState": {
+          "OnState": "Inactive",
+          "OffState": "Active",
+          "OnSound": "Garage_Alarm_Disable"
+        }
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Inactive": {
+          "Light": {
+            "Color": "#eee"
+          },
+          "DrawType": "Cube"
+        },
+        "Active": {
+          "Light": {
+            "Color": "#f22"
+          },
+          "DrawType": "Cube",
+          "Textures": [
+            {
+              "All": "BlockTextures/Dev_Lightsource_Red_Side.png"
+            }
+          ],
+          "AmbientSoundEventId": "Garage_Alarm",
+          "Looping": true
+        }
+      }
+    },
+    "DrawType": "Cube",
+    "RequiresAlphaBlending": false,
+    "Textures": [
+      {
+        "All": "BlockTextures/Build_Lightsource_White.png"
+      }
+    ]
+  },
+  "Categories": [
+    "Tool.TechnicalBlocks"
+  ],
+  "MaxStack": 100
+}
