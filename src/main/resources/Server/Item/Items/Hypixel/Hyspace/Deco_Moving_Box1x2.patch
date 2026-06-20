@@ -3,14 +3,7 @@
     "Gathering": {
       "Breaking": null,
       "Soft": {
-        "DropList": {
-          "Container": {
-            "Type": "Single",
-            "Item": {
-              "ItemId": "Ingredient_Hide_Light"
-            }
-          }
-        }
+        "DropList": "BO_Cardboard_Box_Droplist"
       }
     }
   }
