@@ -1,0 +1,36 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/bo_parking_media/bo_speaker_texture_01.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModel": "Blocks/bo_parking_media/bo_speaker_01.blockymodel",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "AllowRotationKey": true
+    },
+    "HitboxType": "Block_Seven_Eighth",
+    "IgnoreSupportWhenPlaced": true,
+    "Parent": "Rock_Bedrock",
+    "Material": "Solid",
+    "VariantRotation": "NESW"
+  },
+  "Icon": "Icons/ItemsGenerated/BO_Speaker.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      183,
+      22.5
+    ],
+    "Translation": [
+      -6,
+      -8
+    ]
+  },
+  "Parent": "Rock_Bedrock"
+}

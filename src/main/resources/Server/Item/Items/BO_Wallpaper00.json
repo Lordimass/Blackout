@@ -96,17 +96,8 @@
         }
       }
     },
-    "Textures": [
-      {
-        "All": "Blocks/bo_wallpaper/bo_wallpaper_00_cube_texture.png"
-      }
-    ],
     "Material": "Solid",
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Unbreakable"
-      }
-    },
+    "Hardness": "5000",
     "IgnoreSupportWhenPlaced": false,
     "Parent": "Rock_Bedrock",
     "VariantRotation": "NESW",
@@ -114,11 +105,32 @@
     "PlacementSettings": {
       "RotationMode": "Default",
       "AllowRotationKey": true
-    }
+    },
+    "Textures": [
+      {
+        "All": "Blocks/bo_wallpaper/bo_wallpaper_00_cube_texture.png"
+      }
+    ]
   },
   "Tags": {
     "Wallpaper": []
   },
   "Parent": "Rock_Stone",
-  "ItemLevel": 500
+  "ItemLevel": 500,
+  "Tool": {
+    "Specs": [
+      {
+        "Parent": "Unbreak",
+        "IsIncorrect": true
+      },
+      {
+        "Parent": "VolcanicRocks",
+        "IsIncorrect": true
+      },
+      {
+        "Parent": "Rocks",
+        "IsIncorrect": true
+      }
+    ]
+  }
 }

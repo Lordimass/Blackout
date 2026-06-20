@@ -114,71 +114,7 @@
               "RepeatZ": 50,
               "Centered": true
             },
-            "POIs": [
-              {
-                "$NodeId": "Auto.TileSet.GridWave-bsp0000000000000000000000000000202",
-                "Type": "Auto",
-                "Features": [
-                  {
-                    "$NodeId": "Restrainer.Feature.GridWave-bsp0000000000000000000000000000212",
-                    "Type": "Restrainer",
-                    "Skip": false,
-                    "Pos": {
-                      "$NodeId": "Point3D-bsp0000000000000000000000000000222",
-                      "X": 30,
-                      "Y": 16,
-                      "Z": 0
-                    },
-                    "Rot": "None"
-                  }
-                ],
-                "FolderPath": "Backroomsv1/1x1/1111",
-                "Weight": 1,
-                "MinimizeVariants": true
-              },
-              {
-                "$NodeId": "Auto.TileSet.GridWave-bsp0000000000000000000000000000201",
-                "Type": "Auto",
-                "Features": [
-                  {
-                    "$NodeId": "Restrainer.Feature.GridWave-bsp0000000000000000000000000000211",
-                    "Type": "Restrainer",
-                    "Skip": false,
-                    "Pos": {
-                      "$NodeId": "Point3D-bsp0000000000000000000000000000221",
-                      "X": 0,
-                      "Y": 16,
-                      "Z": 0
-                    },
-                    "Rot": "None"
-                  }
-                ],
-                "FolderPath": "Backroomsv1/1x1/1111",
-                "Weight": 1,
-                "MinimizeVariants": true
-              },
-              {
-                "$NodeId": "Auto.TileSet.GridWave-bsp0000000000000000000000000000203",
-                "Type": "Auto",
-                "Features": [
-                  {
-                    "$NodeId": "Restrainer.Feature.GridWave-bsp0000000000000000000000000000213",
-                    "Type": "Restrainer",
-                    "Skip": false,
-                    "Pos": {
-                      "$NodeId": "Point3D-bsp0000000000000000000000000000223",
-                      "X": 10,
-                      "Y": 16,
-                      "Z": 20
-                    },
-                    "Rot": "None"
-                  }
-                ],
-                "FolderPath": "Backroomsv1/1x1/1111",
-                "Weight": 1,
-                "MinimizeVariants": true
-              }
-            ],
+            "POIs": [],
             "BaseTiles": [
               {
                 "$NodeId": "Imported.TileSet.GridWave-00000000000000000000000000000031",
@@ -532,86 +468,32 @@
       },
       "GridGen2D.GridWave-00000000000000000000000000000072": {
         "$Position": {
-          "$x": -738,
-          "$y": 20
+          "$x": -743,
+          "$y": 344
         }
       },
       "Vector3i-00000000000000000000000000000073": {
         "$Position": {
-          "$x": -77,
-          "$y": -24
-        }
-      },
-      "Auto.TileSet.GridWave-bsp0000000000000000000000000000201": {
-        "$Position": {
-          "$x": 359,
-          "$y": 194
-        }
-      },
-      "Restrainer.Feature.GridWave-bsp0000000000000000000000000000211": {
-        "$Position": {
-          "$x": 1428,
-          "$y": 195
-        }
-      },
-      "Point3D-bsp0000000000000000000000000000221": {
-        "$Position": {
-          "$x": 2081,
-          "$y": 155
-        }
-      },
-      "Auto.TileSet.GridWave-bsp0000000000000000000000000000202": {
-        "$Position": {
-          "$x": 386,
-          "$y": -9
-        }
-      },
-      "Restrainer.Feature.GridWave-bsp0000000000000000000000000000212": {
-        "$Position": {
-          "$x": 1443,
-          "$y": 4
-        }
-      },
-      "Point3D-bsp0000000000000000000000000000222": {
-        "$Position": {
-          "$x": 2102,
-          "$y": -35
-        }
-      },
-      "Auto.TileSet.GridWave-bsp0000000000000000000000000000203": {
-        "$Position": {
-          "$x": 358,
-          "$y": 394
-        }
-      },
-      "Restrainer.Feature.GridWave-bsp0000000000000000000000000000213": {
-        "$Position": {
-          "$x": 1447,
-          "$y": 401
-        }
-      },
-      "Point3D-bsp0000000000000000000000000000223": {
-        "$Position": {
-          "$x": 2111,
-          "$y": 355
+          "$x": -48,
+          "$y": 368
         }
       },
       "Imported.TileSet.GridWave-00000000000000000000000000000031": {
         "$Position": {
-          "$x": -796,
-          "$y": 744
+          "$x": -830,
+          "$y": 688
         }
       },
       "Border.Feature.GridWave-854585d0-b1c5-43ee-b4b9-20bc13ef5af1": {
         "$Position": {
-          "$x": -130,
-          "$y": 724
+          "$x": -61,
+          "$y": 623
         }
       },
       "Simple.RuleSet.GridWave-b2e46bf7-1d9b-4940-9ee0-9f0e41101596": {
         "$Position": {
-          "$x": 545,
-          "$y": 614
+          "$x": 615,
+          "$y": 576
         }
       },
       "Imported.TileSet.GridWave-bsi0000000000000000000000000000111": {
@@ -788,5 +670,13 @@
     "$Groups": [],
     "$Comments": [],
     "$WorkspaceID": "HytaleGenerator - Biome"
+  },
+  "EnvironmentProvider": {
+    "Type": "Constant",
+    "Environment": "Blackout"
+  },
+  "TintProvider": {
+    "Type": "Constant",
+    "Color": "#baba3a"
   }
 }
