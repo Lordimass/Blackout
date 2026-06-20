@@ -5641,7 +5641,7 @@
       "x": 0,
       "y": 13,
       "z": -5,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -5706,7 +5706,7 @@
       "x": 0,
       "y": 13,
       "z": -4,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -6247,7 +6247,7 @@
       "x": 0,
       "y": 13,
       "z": 5,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -6312,7 +6312,7 @@
       "x": 0,
       "y": 13,
       "z": 6,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -6853,7 +6853,7 @@
       "x": 1,
       "y": 13,
       "z": -5,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -6918,7 +6918,7 @@
       "x": 1,
       "y": 13,
       "z": -4,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -7459,7 +7459,7 @@
       "x": 1,
       "y": 13,
       "z": 5,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -7524,7 +7524,7 @@
       "x": 1,
       "y": 13,
       "z": 6,
-      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
+      "name": "*BO_Ceiling_Light00_State_Definitions_On",
       "components": {
         "Components": {
           "BlackoutCycleState": {

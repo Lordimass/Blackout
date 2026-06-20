@@ -5609,8 +5609,15 @@
       "x": -3,
       "y": 9,
       "z": 4,
-      "name": "Build_Lightsource_White",
-      "support": 15,
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active"
+          }
+        }
+      },
       "rotation": 5
     },
     {
@@ -8529,8 +8536,15 @@
       "x": -2,
       "y": 9,
       "z": 4,
-      "name": "Build_Lightsource_White",
-      "support": 15,
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active"
+          }
+        }
+      },
       "rotation": 5
     },
     {
@@ -12901,7 +12915,7 @@
       "x": 0,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -13204,7 +13218,7 @@
       "x": 0,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -13909,7 +13923,7 @@
       "x": 0,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -14210,7 +14224,7 @@
       "x": 0,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -15705,7 +15719,7 @@
       "x": 1,
       "y": 42,
       "z": -2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -16009,7 +16023,7 @@
       "x": 1,
       "y": 42,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -16713,7 +16727,7 @@
       "x": 1,
       "y": 42,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -17012,7 +17026,7 @@
       "x": 1,
       "y": 42,
       "z": 3,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -20969,7 +20983,15 @@
       "x": 3,
       "y": 9,
       "z": -3,
-      "name": "Build_Lightsource_White",
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active"
+          }
+        }
+      },
       "rotation": 5
     },
     {
@@ -23896,7 +23918,15 @@
       "x": 4,
       "y": 9,
       "z": -3,
-      "name": "Build_Lightsource_White",
+      "name": "*BO_Garage_Overhead_Lights_State_Definitions_Inactive",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Inactive",
+            "OffState": "Active"
+          }
+        }
+      },
       "rotation": 5
     },
     {

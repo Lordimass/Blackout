@@ -1,0 +1,35 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Weight": 100,
+        "Item": {
+          "ItemId": "Ingredient_Hide_Light"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 10,
+        "Item": {
+          "ItemId": "BO_Flashlight"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 3,
+        "Item": {
+          "ItemId": "Food_Cheese"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 1,
+        "Item": {
+          "ItemId": "Weapon_Shiv_Crude"
+        }
+      }
+    ]
+  }
+}

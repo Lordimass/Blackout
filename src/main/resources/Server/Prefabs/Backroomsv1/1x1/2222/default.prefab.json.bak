@@ -1623,7 +1623,7 @@
       "x": -1,
       "y": 10,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -1656,7 +1656,7 @@
       "x": -1,
       "y": 10,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -1689,7 +1689,7 @@
       "x": -1,
       "y": 10,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -1722,7 +1722,7 @@
       "x": -1,
       "y": 10,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -1953,7 +1953,7 @@
       "x": 0,
       "y": 10,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -1986,7 +1986,7 @@
       "x": 0,
       "y": 10,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2019,7 +2019,7 @@
       "x": 0,
       "y": 10,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2052,7 +2052,7 @@
       "x": 0,
       "y": 10,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2283,7 +2283,7 @@
       "x": 1,
       "y": 10,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2316,7 +2316,7 @@
       "x": 1,
       "y": 10,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2349,7 +2349,7 @@
       "x": 1,
       "y": 10,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2382,7 +2382,7 @@
       "x": 1,
       "y": 10,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2613,7 +2613,7 @@
       "x": 2,
       "y": 10,
       "z": -1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2646,7 +2646,7 @@
       "x": 2,
       "y": 10,
       "z": 0,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2679,7 +2679,7 @@
       "x": 2,
       "y": 10,
       "z": 1,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -2712,7 +2712,7 @@
       "x": 2,
       "y": 10,
       "z": 2,
-      "name": "*BO_Lightsource_Cycle_State_Definitions_Night",
+      "name": "*BO_Lightsource_Cycle_State_Definitions_Day",
       "components": {
         "Components": {
           "BlackoutCycleState": {

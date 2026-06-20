@@ -1,0 +1,17 @@
+{
+  "MaxDistance": 24,
+  "SpatialBlend": 0.124,
+  "MaxInstance": 8,
+  "StartAttenuationDistance": 2,
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/SFX_UI_Notification.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -0.384,
+        "MaxPitch": 0.384
+      }
+    }
+  ]
+}

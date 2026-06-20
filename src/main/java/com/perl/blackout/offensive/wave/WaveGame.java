@@ -26,6 +26,7 @@ public final class WaveGame {
     private volatile WavePhase phase = WavePhase.REST;
     private volatile long phaseStartMs;
     private int round = 0;
+    private volatile int hazardMilestone = -1;
 
     /** Becomes true only once the instance world has loaded and the game has been set up. */
     private volatile boolean initialized = false;
@@ -86,6 +87,14 @@ public final class WaveGame {
 
     public int incrementRound() {
         return ++round;
+    }
+
+    public int getHazardMilestone() {
+        return hazardMilestone;
+    }
+
+    public void setHazardMilestone(int hazardMilestone) {
+        this.hazardMilestone = hazardMilestone;
     }
 
     // ── Bench (optional defended objective) ──

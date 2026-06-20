@@ -68,6 +68,17 @@ public final class WaveConfig {
         /** True when this floor should seed its persistent enemies as soon as the instance starts. */
         public boolean spawnEnemiesOnInitialize = false;
         public List<EnemyGroup> enemies = new ArrayList<>();
+
+        public boolean hazardEnabled = false;
+        public double hazardYMin = 0.0;
+        public double hazardYMax = 0.0;
+        public int hazardEffectStartSeconds = 20;
+        public int hazardKillStartSeconds = 30;
+        public String hazardEffectId = "BO_Garage_Exposure";
+
+        public boolean hasHazard() {
+            return hazardEnabled && hazardEffectId != null && !hazardEffectId.isBlank() && hazardYMax > hazardYMin;
+        }
     }
 
     public static final class EnemyGroup {
@@ -99,6 +110,9 @@ public final class WaveConfig {
         floor2.floor = 2;
         floor2.floorY = 4.0;
         floor2.enemies.add(new EnemyGroup("Seeker", 6));
+        floor2.hazardEnabled = true;
+        floor2.hazardYMin = 0.0;
+        floor2.hazardYMax = 16.0;
 
         List<Floor> list = new ArrayList<>();
         list.add(floor0);
@@ -111,6 +125,16 @@ public final class WaveConfig {
     public Floor findFloor(int floor) {
         for (Floor candidate : floors) {
             if (candidate.floor == floor) {
+                return candidate;
+            }
+        }
+        return null;
+    }
+
+    @Nullable
+    public Floor findHazardFloor() {
+        for (Floor candidate : floors) {
+            if (candidate.hasHazard()) {
                 return candidate;
             }
         }

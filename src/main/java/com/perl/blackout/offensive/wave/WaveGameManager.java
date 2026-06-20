@@ -64,6 +64,7 @@ public final class WaveGameManager {
     private final FenceTargetService fenceTargetService = new FenceTargetService();
     private final ObjectiveService objectiveService = new ObjectiveService(fenceTargetService);
     private final FlashlightScareService flashlightScareService = new FlashlightScareService(FLASHLIGHT_SCARE_RANGE);
+    private final GarageHazardService garageHazardService = new GarageHazardService();
     private final Map<World, WaveGame> games = new ConcurrentHashMap<>();
 
     public WaveGameManager(OffensivePlugin plugin) {
@@ -204,6 +205,7 @@ public final class WaveGameManager {
                         enemySpawnService.pruneDeadPersistentEnemies(game, attackStore);
                         objectiveService.applyTargeting(game, attackStore, world);
                         flashlightScareService.apply(game, attackStore, world);
+                        garageHazardService.apply(game, world, attackStore, config, elapsed);
                     });
                 }
             }
@@ -214,6 +216,7 @@ public final class WaveGameManager {
 
     private void beginAttack(World world, WaveGame game, long now) {
         game.startPhase(WavePhase.ATTACK, now);
+        game.setHazardMilestone(-1);
         int round = game.incrementRound();
         WaveMessages.broadcast(world, "Night " + round, "The lights are going out!", true);
 
@@ -229,6 +232,7 @@ public final class WaveGameManager {
 
     private void beginRest(World world, WaveGame game, long now) {
         game.startPhase(WavePhase.REST, now);
+        game.setHazardMilestone(-1);
         WaveMessages.broadcast(world, "Daybreak",
                 "Rest " + config.restDurationSeconds + "s until the next night.", true);
         world.execute(() -> {
