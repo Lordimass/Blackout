@@ -34,5 +34,6 @@
   "Light": {
     "Color": "#308",
     "Radius": 0
-  }
+  },
+  "PlayerAnimationsId": "Item"
 }
