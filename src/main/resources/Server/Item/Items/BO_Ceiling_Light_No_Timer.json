@@ -45,15 +45,8 @@
         }
       }
     },
-    "BlockEntity": {
-      "Components": {
-        "BlackoutCycleState": {
-          "OnState": "On",
-          "OffState": "Off",
-          "OnSound": "BO_Light_On",
-          "OffSound": "BO_Light_Off"
-        }
-      }
+    "Light": {
+      "Color": "#ffb"
     }
   },
   "Icon": "Icons/ItemsGenerated/BO_Ceiling_Light00.png",
@@ -70,7 +63,7 @@
     ]
   },
   "TranslationProperties": {
-    "Name": "BO Ceiling Light"
+    "Name": "BO Ceiling Light (No Toggle)"
   },
   "Parent": "Rock_Bedrock"
 }
