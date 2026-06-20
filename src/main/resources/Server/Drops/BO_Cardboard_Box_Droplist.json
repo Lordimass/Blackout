@@ -11,7 +11,7 @@
       },
       {
         "Type": "Single",
-        "Weight": 10,
+        "Weight": 2,
         "Item": {
           "ItemId": "BO_Flashlight"
         }

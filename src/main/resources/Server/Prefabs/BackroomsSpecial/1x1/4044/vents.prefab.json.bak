@@ -3556,16 +3556,21 @@
       "x": 4,
       "y": 0,
       "z": 0,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 1,
-      "z": 0,
-      "name": "BO_Parking_Blacktop",
-      "support": 15,
-      "rotation": 3
+      "name": "*Garage_Slime_Light_State_Definitions_Day",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Day",
+            "OffState": "Night"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      }
     },
     {
       "x": 4,
@@ -3606,13 +3611,6 @@
     {
       "x": 4,
       "y": 0,
-      "z": 1,
-      "name": "BO_Parking_Blacktop",
-      "rotation": 4
-    },
-    {
-      "x": 4,
-      "y": 1,
       "z": 1,
       "name": "*Garage_Slime_Light_State_Definitions_Day",
       "components": {
@@ -4547,14 +4545,14 @@
   "fluids": [
     {
       "x": 4,
-      "y": 2,
+      "y": 1,
       "z": 0,
       "name": "Slime_Source",
       "level": 1
     },
     {
       "x": 4,
-      "y": 2,
+      "y": 1,
       "z": 1,
       "name": "Slime_Source",
       "level": 1

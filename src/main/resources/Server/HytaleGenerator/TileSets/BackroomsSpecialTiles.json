@@ -66,7 +66,7 @@
 		}, {
 			"$NodeId":	"Auto.TileSet.GridWave-9ceffe6c-f661-429e-a419-2cde34e48383",
 			"Type":	"Auto",
-			"FolderPath":	"BackroomsSpecial/1x2/404X-4X44/",
+			"FolderPath":	"BackroomsSpecial/1x2/44X4-X404/",
 			"Weight":	0.75,
 			"MinimizeVariants":	false
 		}, {
@@ -81,6 +81,12 @@
 			"FolderPath":	"BackroomsSpecial/1x1/4004",
 			"Weight":	0.5,
 			"MinimizeVariants":	false
+		}, {
+			"$NodeId":	"Auto.TileSet.GridWave-0d79df6a-b222-4a8e-8d05-42f875b1dd45",
+			"Type":	"Auto",
+			"FolderPath":	"BackroomsSpecial/1x1/4400",
+			"Weight":	0.15,
+			"MinimizeVariants":	true
 		}],
 	"ExportAs":	"BackroomsSpecialTiles",
 	"$NodeEditorMetadata":	{
@@ -162,6 +168,12 @@
 				"$Position":	{
 					"$x":	4104,
 					"$y":	3051
+				}
+			},
+			"Auto.TileSet.GridWave-0d79df6a-b222-4a8e-8d05-42f875b1dd45":	{
+				"$Position":	{
+					"$x":	4087,
+					"$y":	3244
 				}
 			}
 		},

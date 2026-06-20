@@ -13,7 +13,7 @@
       "BlockPreviewVisibility": "AlwaysVisible",
       "AllowRotationKey": true
     },
-    "HitboxType": "BO_PA",
+    "HitboxType": "Block_Seven_Eighth",
     "IgnoreSupportWhenPlaced": true,
     "Parent": "Rock_Bedrock",
     "Material": "Solid",
