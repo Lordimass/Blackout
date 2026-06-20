@@ -13,7 +13,7 @@
       "BlockPreviewVisibility": "AlwaysVisible",
       "AllowRotationKey": true
     },
-    "HitboxType": "Block_Seven_Eighth",
+    "HitboxType": "Block_Vertical_Seven_Eighth",
     "IgnoreSupportWhenPlaced": true,
     "Parent": "Rock_Bedrock",
     "Material": "Solid",
@@ -64,6 +64,11 @@
           "OnState": "Active",
           "OffState": "Inactive"
         }
+      }
+    },
+    "Gathering": {
+      "Soft": {
+        "ItemId": "Ingredient_Stud_Iron"
       }
     }
   },
