@@ -66,13 +66,13 @@
 		}, {
 			"$NodeId":	"Auto.TileSet.GridWave-9ceffe6c-f661-429e-a419-2cde34e48383",
 			"Type":	"Auto",
-			"FolderPath":	"BackroomsSpecial/1x2/404X-4X44\n    -50,\n    40\n    -50,\n    40\n    -50,\n    40\n    -50,\n    40",
+			"FolderPath":	"BackroomsSpecial/1x2/404X-4X44/",
 			"Weight":	0.75,
 			"MinimizeVariants":	false
 		}, {
 			"$NodeId":	"Auto.TileSet.GridWave-ea4acf88-1357-41ad-925e-2dac5deff2b2",
 			"Type":	"Auto",
-			"FolderPath":	"BackroomsSpecial/1x1/4044\nThe issue is *not everything is configurable* in a mod \n﻿\n﻿\nLike hexcode is *configurable* kinda but it's strewn across the entire \nThe issue is *not everything is configurable* in a mod \n﻿\n﻿\nLike hexcode is *configurable* kinda but it's strewn across the entire \nThe issue is *not everything is configurable* in a mod \n﻿\n﻿\nLike hexcode is *configurable* kinda but it's strewn across the entire \nThe issue is *not everything is configurable* in a mod \n﻿\n﻿\nLike hexcode is *configurable* kinda but it's strewn across the entire \nThe issue is *not everything is configurable* in a mod \n﻿\n﻿\nLike hexcode is *configurable* kinda but it's strewn across the entire ",
+			"FolderPath":	"BackroomsSpecial/1x1/4044/",
 			"Weight":	0.5,
 			"MinimizeVariants":	false
 		}, {
