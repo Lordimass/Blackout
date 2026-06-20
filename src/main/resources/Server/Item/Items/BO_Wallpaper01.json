@@ -1,6 +1,6 @@
 {
   "BlockType": {
-    "DrawType": "Cube",
+    "DrawType": "Model",
     "PlacementSettings": {
       "RotationMode": "FacingPlayer",
       "BlockPreviewVisibility": "AlwaysVisible"
@@ -8,9 +8,10 @@
     "BlockListAssetId": "BO_WallpaperType",
     "IgnoreSupportWhenPlaced": true,
     "Material": "Solid",
-    "Textures": [
+    "CustomModel": "Blocks/bo_wallpaper/bo_wallpaper_00.blockymodel",
+    "CustomModelTexture": [
       {
-        "All": "Blocks/bo_wallpaper/bo_wallpaper_00_cube_texture.png"
+        "Texture": "Blocks/bo_wallpaper/bo_wallpaper_01_texture.png"
       }
     ]
   },

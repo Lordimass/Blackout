@@ -4,7 +4,7 @@
   "Modify": {
     "DropList": "Empty",
     "Appearance": "Seeker",
-    "MaxHealth": 200,
+    "MaxHealth": 180,
     "ViewRange": 16,
     "ViewSector": 360,
     "HearingRange": 32,

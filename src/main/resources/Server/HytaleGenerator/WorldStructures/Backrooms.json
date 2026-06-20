@@ -1,7 +1,7 @@
 {
   "Type": "NoiseRange",
   "DefaultTransitionDistance": 1024,
-  "MaxBiomeEdgeDistance": 32,
+  "MaxBiomeEdgeDistance": 1024,
   "Density": {
     "Type": "Imported",
     "Name": "Biome-Map"
@@ -22,17 +22,17 @@
             "Positions": [
               {
                 "X": 0,
-                "Y": 22,
+                "Y": 23,
                 "Z": 0
               },
               {
                 "X": 30,
-                "Y": 22,
+                "Y": 23,
                 "Z": 0
               },
               {
                 "X": 10,
-                "Y": 22,
+                "Y": 23,
                 "Z": 20
               }
             ]

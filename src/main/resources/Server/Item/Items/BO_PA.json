@@ -1,0 +1,89 @@
+{
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/bo_parking_media/bo_pa_texture.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModel": "Blocks/bo_parking_media/bo_pa.blockymodel",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "AllowRotationKey": true
+    },
+    "HitboxType": "Block_Seven_Eighth",
+    "IgnoreSupportWhenPlaced": true,
+    "Parent": "Rock_Bedrock",
+    "Material": "Solid",
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "BlackoutCycleState": {
+          "OffState": "default",
+          "OnState": "Active",
+          "OnSound": "BO_Theme_On",
+          "OffSound": "BO_Theme_Off"
+        }
+      }
+    },
+    "CustomModelAnimation": "Blocks/bo_parking_media/bo_speaker_active.blockyanim",
+    "Looping": true
+  },
+  "Icon": "Icons/ItemsGenerated/BO_PA.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      0,
+      313,
+      0
+    ],
+    "Translation": [
+      -17,
+      -32
+    ]
+  },
+  "Parent": "Rock_Bedrock",
+  "TranslationProperties": {
+    "Name": "BO_PA"
+  },
+  "State": {
+    "Active": {
+      "Parent": "Rock_Bedrock",
+      "BlockType": {
+        "Parent": "Rock_Bedrock",
+        "CustomModel": "Blocks/bo_parking_media/bo_pa.blockymodel",
+        "CustomModelTexture": [
+          {
+            "Texture": "Blocks/bo_parking_media/bo_pa_texture.png"
+          }
+        ],
+        "CustomModelAnimation": "Blocks/bo_parking_media/bo_speaker_active.blockyanim",
+        "Looping": true,
+        "MaxSupportDistance": 14,
+        "IgnoreSupportWhenPlaced": true,
+        "Material": "Solid",
+        "DrawType": "Model"
+      }
+    },
+    "default": {
+      "Parent": "Rock_Bedrock",
+      "BlockType": {
+        "Parent": "Rock_Bedrock",
+        "CustomModel": "Blocks/bo_parking_media/bo_pa.blockymodel",
+        "CustomModelTexture": [
+          {
+            "Texture": "Blocks/bo_parking_media/bo_pa_texture.png"
+          }
+        ],
+        "CustomModelAnimation": "Blocks/bo_parking_media/bo_speaker_active.blockyanim",
+        "AmbientSoundEventId": "BO_Theme_On",
+        "Looping": true,
+        "MaxSupportDistance": 14,
+        "IgnoreSupportWhenPlaced": true,
+        "Material": "Solid"
+      }
+    }
+  }
+}
