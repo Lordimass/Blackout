@@ -2,13 +2,20 @@
   "Type": "Simple",
   "Effects": {
     "ItemPlayerAnimationsId": "Turret",
-    "ItemAnimationId": "Shoot"
+    "ItemAnimationId": "Shoot",
+    "Particles": [
+      {
+        "SystemId": "Shotgun",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Barrel-End"
+      }
+    ]
   },
   "Next": {
     "Type": "LaunchProjectile",
     "RunTime": 0.5,
     "Effects": {
-      "WorldSoundEventId": "SFX_Unarmed_Swing"
+      "WorldSoundEventId": "BO_SFX_Turret_Fire"
     },
     "ProjectileId": "Skeleton_Archer_Arrow",
     "Tags": {

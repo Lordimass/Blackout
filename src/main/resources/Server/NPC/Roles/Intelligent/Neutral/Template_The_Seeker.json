@@ -13,7 +13,7 @@
       "Description": "Model to be used"
     },
     "MaxHealth": {
-      "Value": 180,
+      "Value": 200,
       "Description": "Max health for the NPC"
     },
     "EatItem": {
@@ -113,6 +113,30 @@
   "Instructions": [
     {
       "Instructions": [
+        {
+          "Continue": true,
+          "ActionsBlocking": true,
+          "Sensor": {
+            "Type": "Not",
+            "Sensor": {
+              "Type": "State",
+              "State": "Peaceful"
+            }
+          },
+          "Actions": [
+            {
+              "Type": "PlaySound",
+              "SoundEventId": "BO_SFX_Monster_Seeker_Ambiant"
+            },
+            {
+              "Type": "Timeout",
+              "Delay": [
+                24,
+                24
+              ]
+            }
+          ]
+        },
         {
           "Sensor": {
             "Type": "State",
@@ -363,6 +387,11 @@
               },
               "Actions": [
                 {
+                  "Type": "PlaySound",
+                  "Once": true,
+                  "SoundEventId": "BO_SFX_Monster_Alert"
+                },
+                {
                   "Type": "SpawnParticles",
                   "Offset": [
                     0,
@@ -516,6 +545,11 @@
               },
               "ActionsBlocking": true,
               "Actions": [
+                {
+                  "Type": "PlaySound",
+                  "Once": true,
+                  "SoundEventId": "BO_SFX_Monster_Attack"
+                },
                 {
                   "Type": "Timeout",
                   "Delay": [
