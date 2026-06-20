@@ -17,10 +17,13 @@
   ],
   "BenchRequirement": [
     {
-      "Type": "Processing",
-      "Id": "BlackoutSalvagebench"
+      "Type": "Crafting",
+      "Id": "BO_Workbench",
+      "Categories": [
+        "BO_Workbench"
+      ]
     }
   ],
-  "TimeSeconds": 45,
+  "TimeSeconds": 20,
   "OutputQuantity": 1
 }
