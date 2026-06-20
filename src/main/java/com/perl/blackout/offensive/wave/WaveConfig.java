@@ -129,7 +129,6 @@ public final class WaveConfig {
         Floor floor2 = new Floor();
         floor2.floor = 2;
         floor2.floorY = 4.0;
-        floor2.enemies.add(new EnemyGroup("Seeker", 6));
         floor2.hazardEnabled = true;
         floor2.hazardYMin = 0.0;
         floor2.hazardYMax = 16.0;

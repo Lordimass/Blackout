@@ -5,10 +5,23 @@
       "Soft": {
         "DropList": {
           "Container": {
-            "Type": "Single",
-            "Item": {
-              "ItemId": "Ingredient_Stick"
-            }
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Ingredient_Stick"
+                },
+                "Weight": 70
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Ingredient_Stud_Iron"
+                },
+                "Weight": 40
+              }
+            ]
           }
         }
       }
