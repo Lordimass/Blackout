@@ -32,7 +32,7 @@
       "Description": "Distance at which the dummy attacks"
     },
     "RelativeChaseSpeed": {
-      "Value": 1,
+      "Value": 2,
       "Description": "Relative movement speed while chasing a detected player"
     },
     "NameTranslationKey": {
@@ -62,7 +62,7 @@
   "MotionControllerList": [
     {
       "Type": "Walk",
-      "MaxWalkSpeed": 2.4,
+      "MaxWalkSpeed": 7.0,
       "Gravity": 10,
       "MaxFallSpeed": 8,
       "Acceleration": 10

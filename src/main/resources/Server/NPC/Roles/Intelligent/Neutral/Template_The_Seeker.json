@@ -41,7 +41,7 @@
       "Description": "Range within which a force-marked wave target can pull the Seeker into pursuit"
     },
     "AttackDistance": {
-      "Value": 2.5,
+      "Value": 2,
       "Description": "The distance at which an NPC will execute attacks"
     },
     "FleeRange": {

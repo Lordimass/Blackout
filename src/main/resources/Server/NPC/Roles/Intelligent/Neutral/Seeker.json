@@ -9,7 +9,7 @@
     "ViewSector": 360,
     "HearingRange": 32,
     "AlertedRange": 30,
-    "AttackDistance": 2.5,
+    "AttackDistance": 2,
     "FleeRange": 12,
     "FlashlightItems": [
       "BO_Flashlight"
