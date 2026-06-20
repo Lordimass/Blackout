@@ -49,7 +49,7 @@
     "Material": "Solid",
     "HitboxType": "BO_CraftingMachine",
     "AllowsMultipleUsers": false,
-    "InteractionHitboxType": "BO_CraftingMachine",
+    "InteractionHitboxType": "BO_CraftingMachine_Interaction",
     "Support": {
       "Down": []
     },

@@ -307,7 +307,7 @@ public final class WaveGameManager {
         });
     }
 
-    /** A player broke the crafting machine: despawn its NPC and drop the bench item. */
+    /** A player broke the crafting machine: despawn its NPC. The native block break drops the item. */
     public void onBenchBroken(World world, Vector3i blockPos) {
         WaveGame game = games.get(world);
         Ref<EntityStore> npc = null;
@@ -325,7 +325,6 @@ public final class WaveGameManager {
             if (benchNpc != null && benchNpc.isValid()) {
                 store.removeEntity(benchNpc, RemoveReason.REMOVE);
             }
-            dropBenchItem(store, blockPos);
         });
     }
 
