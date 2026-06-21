@@ -81,34 +81,5 @@
   "TranslationProperties": {
     "Name": "Parking_Wall_03"
   },
-  "Parent": "Rock_Bedrock",
-  "State": {
-    "Open": {
-      "CustomModel": "Blocks/bo_garage_door/bo_parking_garage_door.blockymodel",
-      "DrawType": "Model",
-      "CustomModelTexture": [
-        {
-          "Texture": "Blocks/bo_garage_door/bo_parking_garage_door_texture.png"
-        }
-      ],
-      "PlacementSettings": {
-        "RotationMode": "FacingPlayer",
-        "BlockPreviewVisibility": "AlwaysVisible"
-      },
-      "IgnoreSupportWhenPlaced": true,
-      "Material": "Solid",
-      "Parent": "Rock_Bedrock",
-      "BlockType": {
-        "CustomModel": "Blocks/bo_garage_door/bo_parking_garage_door.blockymodel",
-        "CustomModelTexture": [
-          {
-            "Texture": "Blocks/bo_garage_door/bo_parking_garage_door_texture.png"
-          }
-        ],
-        "CustomModelAnimation": "Blocks/bo_garage_door/bo_garage_door_active.blockyanim",
-        "Material": "Solid",
-        "HitboxType": "Block_Flat"
-      }
-    }
-  }
+  "Parent": "Rock_Bedrock"
 }
