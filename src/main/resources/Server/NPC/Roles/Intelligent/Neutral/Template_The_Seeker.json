@@ -21,7 +21,7 @@
       "Description": "The item this NPC will find when it rummages for food"
     },
     "ViewRange": {
-      "Value": 16,
+      "Value": 32,
       "Description": "View range in blocks"
     },
     "ViewSector": {
@@ -29,11 +29,11 @@
       "Description": "View sector in degrees"
     },
     "HearingRange": {
-      "Value": 32,
+      "Value": 48,
       "Description": "Hearing range in blocks"
     },
     "AlertedRange": {
-      "Value": 40,
+      "Value": 56,
       "Description": "Range within which an alerted Seeker pursues its target (the marked workbench or nearest player)"
     },
     "LockedTargetRange": {

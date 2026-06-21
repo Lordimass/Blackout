@@ -24,7 +24,6 @@
     },
     "IgnoreSupportWhenPlaced": true,
     "Material": "Solid",
-    "Parent": "Carpets",
     "Textures": [
       {
         "All": "Blocks/bo_floor/bo_floor_00_cube_texture.png"
