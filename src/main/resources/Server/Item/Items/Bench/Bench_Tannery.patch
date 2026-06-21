@@ -1,0 +1,11 @@
+{
+  "BlockType": {
+    "Bench": {
+      "TierLevels": [
+        {
+          "UpgradeRequirement": null
+        }
+      ]
+    }
+  }
+}
