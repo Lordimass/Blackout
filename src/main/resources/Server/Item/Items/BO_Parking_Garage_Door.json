@@ -54,7 +54,8 @@
             "Material": "Solid"
           },
           "HitboxType": "Block_Flat",
-          "CustomModelAnimation": "Blocks/bo_garage_door/bo_garage_door_open.blockyanim"
+          "CustomModelAnimation": "Blocks/bo_garage_door/bo_garage_door_open.blockyanim",
+          "InteractionSoundEventId": "Garage_Door_Open"
         }
       }
     },

@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "duration": 175,
+  "duration": 771,
   "holdLastKeyframe": true,
   "nodeAnimations": {
     "bone": {
@@ -11,13 +11,33 @@
           "interpolationType": "linear"
         },
         {
-          "time": 50,
+          "time": 4,
+          "delta": {"x": 0, "y": -2, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 10,
+          "delta": {"x": 0, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 104,
           "delta": {"x": 0, "y": 32, "z": 0},
           "interpolationType": "linear"
         },
         {
-          "time": 88,
+          "time": 252,
           "delta": {"x": 0, "y": 96, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 263,
+          "delta": {"x": 0, "y": 95, "z": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 273,
+          "delta": {"x": 0, "y": 98, "z": 0},
           "interpolationType": "linear"
         }
       ],
@@ -29,7 +49,7 @@
           "interpolationType": "linear"
         },
         {
-          "time": 88,
+          "time": 252,
           "delta": {"x": 1, "y": 1, "z": 1.5},
           "interpolationType": "linear"
         }
@@ -65,7 +85,7 @@
           "interpolationType": "linear"
         },
         {
-          "time": 88,
+          "time": 252,
           "delta": {"x": 1, "y": 1, "z": 1.5},
           "interpolationType": "linear"
         }
@@ -83,7 +103,7 @@
           "interpolationType": "linear"
         },
         {
-          "time": 88,
+          "time": 252,
           "delta": {"x": 1, "y": 1, "z": 1.5},
           "interpolationType": "linear"
         }
@@ -119,7 +139,7 @@
           "interpolationType": "linear"
         },
         {
-          "time": 88,
+          "time": 252,
           "delta": {"x": 1, "y": 1, "z": 1.5},
           "interpolationType": "linear"
         }
