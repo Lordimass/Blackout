@@ -1,7 +1,8 @@
 {
   "$Comment": "Placeholder Key crafted at the BO_CraftingMachine bench. No behaviour yet; reserved for unlocking deeper Backrooms levels. Placeholder icon reused from an existing asset.",
   "TranslationProperties": {
-    "Name": "Corrupted Key"
+    "Name": "Corrupted Key",
+    "Description": "blackout.items.BO_Key_Corrupted.description"
   },
   "Icon": "Icons/ItemsGenerated/BO_Key_Corrupted.png",
   "MaxStack": 1,
@@ -35,5 +36,6 @@
     "Color": "#308",
     "Radius": 0
   },
-  "PlayerAnimationsId": "Item"
+  "PlayerAnimationsId": "Item",
+  "Quality": "Epic"
 }

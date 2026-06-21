@@ -1,8 +1,11 @@
 items.Egg_Spawner_Gun_Turret.name = Gun Turret
 items.Egg_Spawner_Gun_Turret.description = Shoots your enemies!
 items.flashlight.name=Old Flashlight
-items.flashlight.description=<i>if only we could find some batteries</i>
+items.flashlight.description=<i>Only a little charge left in it</i>
 items.BO_Fluid_Flood.name=Flood Water
 npcRoles.BO_CraftingMachineTarget.name=Crafting Machine
 npcRoles.BO_FenceTarget.name=Fence
 npcRoles.BO_WatchedDummy.name=Watched Dummy
+items.BO_Key.description=Maybe you could corrupt this somehow to make it more useful to you in this cursed place?
+items.BO_Key_Corrupted.description=There must be a corrupted door somewhere that this can open...
+items.Media_RemoteControl.description=A remote for a garage door... Have we seen one of those anywhere around here?

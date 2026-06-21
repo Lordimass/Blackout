@@ -1,7 +1,8 @@
 {
   "$Comment": "Placeholder Key crafted at the BO_CraftingMachine bench. No behaviour yet; reserved for unlocking deeper Backrooms levels. Placeholder icon reused from an existing asset.",
   "TranslationProperties": {
-    "Name": "Key"
+    "Name": "Key",
+    "Description": "blackout.items.BO_Key.description"
   },
   "Icon": "Icons/ItemsGenerated/BO_Key.png",
   "MaxStack": 1,
@@ -20,5 +21,6 @@
       -8
     ]
   },
-  "PlayerAnimationsId": "Item"
+  "PlayerAnimationsId": "Item",
+  "Quality": "Rare"
 }
