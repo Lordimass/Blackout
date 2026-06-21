@@ -1,0 +1,41 @@
+{
+  "Input": [
+    {
+      "ItemId": "Ingredient_Stud_Iron",
+      "Quantity": 2
+    },
+    {
+      "ItemId": "Ingredient_Stick",
+      "Quantity": 8
+    },
+    {
+      "ItemId": "Ingredient_Leather_Light",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Bolt_Linen",
+      "Quantity": 15
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Egg_Spawner_Gun_Turret",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Egg_Spawner_Gun_Turret",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Id": "BO_Workbench",
+      "Categories": [
+        "BO_Workbench"
+      ]
+    }
+  ],
+  "TimeSeconds": 10,
+  "OutputQuantity": 1
+}
