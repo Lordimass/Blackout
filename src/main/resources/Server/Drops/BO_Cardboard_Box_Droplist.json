@@ -19,11 +19,37 @@
         }
       },
       {
-        "Type": "Single",
-        "Weight": 5,
-        "Item": {
-          "ItemId": "BO_Crayon_Blue"
-        }
+        "Type": "Choice",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "BO_Crayon_Black"
+            },
+            "Weight": 25
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "BO_Crayon_Yellow"
+            },
+            "Weight": 99
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "BO_Crayon_Red"
+            },
+            "Weight": 99
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "BO_Crayon_Blue"
+            },
+            "Weight": 99
+          }
+        ]
       },
       {
         "Type": "Single",
@@ -39,27 +65,6 @@
           "ItemId": "Ingredient_Stick",
           "QuantityMin": 0,
           "QuantityMax": 2
-        }
-      },
-      {
-        "Type": "Single",
-        "Weight": 1,
-        "Item": {
-          "ItemId": "BO_Crayon_Black"
-        }
-      },
-      {
-        "Type": "Single",
-        "Weight": 3,
-        "Item": {
-          "ItemId": "BO_Crayon_Red"
-        }
-      },
-      {
-        "Type": "Single",
-        "Weight": 3,
-        "Item": {
-          "ItemId": "BO_Crayon_Yellow"
         }
       }
     ]
