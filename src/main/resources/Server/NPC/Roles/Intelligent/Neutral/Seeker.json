@@ -5,10 +5,10 @@
     "DropList": "Empty",
     "Appearance": "Seeker",
     "MaxHealth": 200,
-    "ViewRange": 16,
+    "ViewRange": 32,
     "ViewSector": 360,
-    "HearingRange": 32,
-    "AlertedRange": 30,
+    "HearingRange": 48,
+    "AlertedRange": 56,
     "AttackDistance": 2,
     "FleeRange": 12,
     "FlashlightItems": [

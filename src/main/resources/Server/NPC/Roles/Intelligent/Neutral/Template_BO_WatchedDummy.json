@@ -27,6 +27,10 @@
       "Value": 15,
       "Description": "Range within which the dummy can detect a nearby uncrouched player"
     },
+    "LockedTargetRange": {
+      "Value": 128,
+      "Description": "Range within which the dummy can keep pursuing a player target"
+    },
     "AttackDistance": {
       "Value": 2.3,
       "Description": "Distance at which the dummy attacks"
@@ -101,9 +105,12 @@
                 "Type": "And",
                 "Sensors": [
                   {
-                    "Type": "Flag",
-                    "Name": "NightMode",
-                    "Set": true
+                    "Type": "Time",
+                    "Period": [
+                      18,
+                      6
+                    ],
+                    "ScaleDayTimeRange": true
                   },
                   {
                     "Type": "Or",
@@ -119,31 +126,24 @@
                         ]
                       },
                       {
-                        "Reference": "Component_Sensor_Sight_By_Attitude",
-                        "Modify": {
-                          "ViewRange": {
-                            "Compute": "ViewRange"
-                          },
-                          "ViewSector": {
-                            "Compute": "ViewSector"
-                          },
-                          "Attitudes": [
-                            "Hostile"
-                          ],
-                          "GetNPCs": false
-                        }
-                      },
-                      {
-                        "Reference": "Component_Sensor_Sound_By_Attitude",
-                        "Modify": {
-                          "HearingRange": {
-                            "Compute": "HearingRange"
-                          },
-                          "ThroughWalls": false,
-                          "Attitudes": [
-                            "Hostile"
-                          ],
-                          "GetNPCs": false
+                        "Type": "Mob",
+                        "Range": {
+                          "Compute": "ViewRange"
+                        },
+                        "GetPlayers": true,
+                        "GetNPCs": false,
+                        "LockOnTarget": true,
+                        "Filters": [
+                          {
+                            "Type": "LineOfSight"
+                          }
+                        ],
+                        "Prioritiser": {
+                          "Type": "Attitude",
+                          "AttitudesByPriority": [
+                            "Hostile",
+                            "Neutral"
+                          ]
                         }
                       }
                     ]
@@ -172,9 +172,15 @@
           "Instructions": [
             {
               "Sensor": {
-                "Type": "Flag",
-                "Name": "NightMode",
-                "Set": false
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "Time",
+                  "Period": [
+                    18,
+                    6
+                  ],
+                  "ScaleDayTimeRange": true
+                }
               },
               "Actions": [
                 {
@@ -218,7 +224,7 @@
               "Sensor": {
                 "Type": "Target",
                 "Range": {
-                  "Compute": "ViewRange"
+                  "Compute": "LockedTargetRange"
                 }
               },
               "Actions": [
@@ -249,9 +255,15 @@
           "Instructions": [
             {
               "Sensor": {
-                "Type": "Flag",
-                "Name": "NightMode",
-                "Set": false
+                "Type": "Not",
+                "Sensor": {
+                  "Type": "Time",
+                  "Period": [
+                    18,
+                    6
+                  ],
+                  "ScaleDayTimeRange": true
+                }
               },
               "Actions": [
                 {
@@ -270,7 +282,7 @@
               "Sensor": {
                 "Type": "Target",
                 "Range": {
-                  "Compute": "ViewRange"
+                  "Compute": "LockedTargetRange"
                 },
                 "AutoUnlockTarget": true
               },
@@ -296,7 +308,7 @@
                   ]
                 },
                 {
-                  "$Comment": "Loop melee swings while the player is in reach. Uses the AttackSequence instruction so the dummy keeps attacking; a hand-rolled Type:Attack action in a plain instruction only fired once per Chase entry. Falls through to the Seek below when the player is out of attack range.",
+                  "$Comment": "Loop melee swings while the current target is in reach. Uses the AttackSequence instruction so the dummy keeps attacking; a hand-rolled Type:Attack action in a plain instruction only fired once per Chase entry. Falls through to the Seek below when the target is out of attack range.",
                   "Reference": "Component_Instruction_Attack_Sequence_Seeker",
                   "Modify": {
                     "AttackDistance": {
@@ -309,7 +321,7 @@
                   "Sensor": {
                     "Type": "Target",
                     "Range": {
-                      "Compute": "ViewRange"
+                      "Compute": "LockedTargetRange"
                     }
                   },
                   "BodyMotion": {
