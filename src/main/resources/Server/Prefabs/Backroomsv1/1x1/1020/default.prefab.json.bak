@@ -2940,21 +2940,17 @@
     },
     {
       "x": -3,
+      "y": 2,
+      "z": 5,
+      "name": "BO_Parking_Blacktop",
+      "support": 15
+    },
+    {
+      "x": -3,
       "y": 3,
       "z": 5,
-      "name": "BO_Iron_Trapdoor",
-      "components": {
-        "Components": {
-          "BlackoutBunkerHatch": {},
-          "PlacedByInteraction": {
-            "WhoPlacedUuid": {
-              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
-              "$type": "04"
-            }
-          }
-        }
-      },
-      "rotation": 1
+      "name": "BO_Parking_Blacktop",
+      "support": 15
     },
     {
       "x": -3,

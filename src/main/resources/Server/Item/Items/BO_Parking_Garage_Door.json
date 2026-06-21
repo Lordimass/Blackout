@@ -24,75 +24,6 @@
     "IgnoreSupportWhenPlaced": true,
     "Material": "Solid",
     "Parent": "Rock_Bedrock",
-    "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "ModifyInventory",
-            "RequiredGameMode": "Adventure",
-            "ItemToRemove": {
-              "Id": "Media_RemoteControl",
-              "Quantity": 1
-            },
-            "Next": {
-              "Type": "ApplyEffect",
-              "Entity": "Owner",
-              "Effects": {
-                "Particles": [
-                  {
-                    "SystemId": "VoidImpact",
-                    "TargetEntityPart": "Self",
-                    "TargetNodeName": "bone2",
-                    "Color": "#4d10d2",
-                    "Scale": 5,
-                    "DetachedFromModel": true
-                  }
-                ]
-              },
-              "EffectId": "HealthRegen_Buff_T1",
-              "Next": {
-                "Type": "ChangeState",
-                "UseLatestTarget": true,
-                "Changes": {
-                  "default": "Open"
-                },
-                "UpdateBlockState": true,
-                "Effects": {
-                  "Particles": [
-                    {
-                      "SystemId": "VoidImpact",
-                      "TargetEntityPart": "Self",
-                      "Color": "#810ba6",
-                      "Scale": 5,
-                      "DetachedFromModel": true,
-                      "PositionOffset": {
-                        "Z": 1
-                      }
-                    }
-                  ],
-                  "FirstPersonParticles": [
-                    {
-                      "SystemId": "VoidImpact",
-                      "TargetEntityPart": "Self",
-                      "Color": "#810ba6",
-                      "Scale": 5,
-                      "DetachedFromModel": true,
-                      "PositionOffset": {
-                        "Z": 1
-                      }
-                    }
-                  ]
-                },
-                "Next": {
-                  "Type": "BlackoutTimer",
-                  "Action": "Stop"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
     "VariantRotation": "NESW",
     "HitboxType": "BO_Parking_Garage_Door_BB",
     "State": {
@@ -128,7 +59,10 @@
       }
     },
     "InteractionHint": "Press [KEY] With Remote in Hand to Open Garage",
-    "InteractionHitboxType": "BO_Parking_Garage_Door_BB"
+    "InteractionHitboxType": "BO_Parking_Garage_Door_BB",
+    "Interactions": {
+      "Use": {}
+    }
   },
   "Icon": "Icons/ItemsGenerated/BO_Parking_Wall03.png",
   "IconProperties": {
@@ -174,75 +108,6 @@
         "Material": "Solid",
         "HitboxType": "Block_Flat"
       }
-    }
-  },
-  "Interactions": {
-    "Use": {
-      "Interactions": [
-        {
-          "Type": "ModifyInventory",
-          "RequiredGameMode": "Adventure",
-          "ItemToRemove": {
-            "Id": "Media_RemoteControl",
-            "Quantity": 1
-          },
-          "Next": {
-            "Type": "ApplyEffect",
-            "Entity": "Owner",
-            "Effects": {
-              "Particles": [
-                {
-                  "SystemId": "VoidImpact",
-                  "TargetEntityPart": "Self",
-                  "TargetNodeName": "bone2",
-                  "Color": "#4d10d2",
-                  "Scale": 5,
-                  "DetachedFromModel": true
-                }
-              ]
-            },
-            "EffectId": "HealthRegen_Buff_T1",
-            "Next": {
-              "Type": "ChangeState",
-              "UseLatestTarget": true,
-              "Changes": {
-                "default": "Open"
-              },
-              "UpdateBlockState": true,
-              "Effects": {
-                "Particles": [
-                  {
-                    "SystemId": "VoidImpact",
-                    "TargetEntityPart": "Self",
-                    "Color": "#810ba6",
-                    "Scale": 5,
-                    "DetachedFromModel": true,
-                    "PositionOffset": {
-                      "Z": 1
-                    }
-                  }
-                ],
-                "FirstPersonParticles": [
-                  {
-                    "SystemId": "VoidImpact",
-                    "TargetEntityPart": "Self",
-                    "Color": "#810ba6",
-                    "Scale": 5,
-                    "DetachedFromModel": true,
-                    "PositionOffset": {
-                      "Z": 1
-                    }
-                  }
-                ]
-              },
-              "Next": {
-                "Type": "BlackoutTimer",
-                "Action": "Stop"
-              }
-            }
-          }
-        }
-      ]
     }
   }
 }

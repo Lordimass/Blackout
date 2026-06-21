@@ -37,5 +37,84 @@
     "Radius": 0
   },
   "PlayerAnimationsId": "Item",
-  "Quality": "Epic"
+  "Quality": "Epic",
+  "MaxDurability": 1,
+  "Interactions": {
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "BlockCondition",
+          "UseLatestTarget": true,
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "BO_Pool_Surface_Door",
+                "State": "default"
+              }
+            }
+          ],
+          "Next": {
+            "Type": "ModifyInventory",
+            "RequiredGameMode": "Adventure",
+            "AdjustHeldItemQuantity": -1,
+            "Next": {
+              "Type": "ApplyEffect",
+              "Entity": "Owner",
+              "Effects": {
+                "Particles": [
+                  {
+                    "SystemId": "VoidImpact",
+                    "TargetEntityPart": "Self",
+                    "TargetNodeName": "bone2",
+                    "Color": "#4d10d2",
+                    "Scale": 5,
+                    "DetachedFromModel": true
+                  }
+                ]
+              },
+              "EffectId": "HealthRegen_Buff_T1",
+              "Next": {
+                "Type": "ChangeState",
+                "UseLatestTarget": true,
+                "Changes": {
+                  "default": "unlocked"
+                },
+                "UpdateBlockState": true,
+                "Effects": {
+                  "Particles": [
+                    {
+                      "SystemId": "VoidImpact",
+                      "TargetEntityPart": "Self",
+                      "Color": "#810ba6",
+                      "Scale": 5,
+                      "DetachedFromModel": true,
+                      "PositionOffset": {
+                        "Z": 1
+                      }
+                    }
+                  ],
+                  "FirstPersonParticles": [
+                    {
+                      "SystemId": "VoidImpact",
+                      "TargetEntityPart": "Self",
+                      "Color": "#810ba6",
+                      "Scale": 5,
+                      "DetachedFromModel": true,
+                      "PositionOffset": {
+                        "Z": 1
+                      }
+                    }
+                  ]
+                },
+                "Next": {
+                  "Type": "BlackoutTimer",
+                  "Action": "ClearOffice"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
 }

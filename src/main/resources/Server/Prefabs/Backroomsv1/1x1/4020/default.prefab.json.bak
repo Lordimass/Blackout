@@ -13151,8 +13151,8 @@
       "x": 0,
       "y": 37,
       "z": -4,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
+      "name": "Pool_Surface_Arrow_Down",
+      "support": 15
     },
     {
       "x": 0,
@@ -13482,8 +13482,8 @@
       "x": 0,
       "y": 37,
       "z": -3,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
+      "name": "Pool_Surface_Arrow_Down",
+      "support": 15
     },
     {
       "x": 0,
@@ -13813,8 +13813,8 @@
       "x": 0,
       "y": 37,
       "z": -2,
-      "name": "BO_Pool_Surface00",
-      "rotation": 4
+      "name": "Pool_Surface_Arrow_Down",
+      "support": 15
     },
     {
       "x": 0,

@@ -50,7 +50,7 @@
 			"Features":	[],
 			"PrefabPath":	"BackroomsPillar/MidTop/",
 			"Weight":	0.03,
-			"MinimizeVariants":	false
+			"MinimizeVariants":	true
 		}, {
 			"$NodeId":	"Single.TileSet.GridWave-a1859f1a-67b7-416d-a9d9-2e82c91d567b",
 			"Type":	"Single",

@@ -26,5 +26,84 @@
     },
     "AllEntities": true
   },
-  "Quality": "Epic"
+  "Quality": "Epic",
+  "MaxDurability": 1,
+  "Interactions": {
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "BlockCondition",
+          "UseLatestTarget": true,
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "BO_Parking_Garage_Door",
+                "State": "default"
+              }
+            }
+          ],
+          "Next": {
+            "Type": "ModifyInventory",
+            "Next": {
+              "Type": "ApplyEffect",
+              "Entity": "Owner",
+              "Effects": {
+                "Particles": [
+                  {
+                    "SystemId": "VoidImpact",
+                    "TargetEntityPart": "Self",
+                    "TargetNodeName": "bone2",
+                    "Color": "#4d10d2",
+                    "Scale": 5,
+                    "DetachedFromModel": true
+                  }
+                ]
+              },
+              "EffectId": "HealthRegen_Buff_T1",
+              "Next": {
+                "Type": "ChangeState",
+                "UseLatestTarget": true,
+                "Changes": {
+                  "default": "Open"
+                },
+                "UpdateBlockState": true,
+                "Effects": {
+                  "Particles": [
+                    {
+                      "SystemId": "VoidImpact",
+                      "TargetEntityPart": "Self",
+                      "Color": "#810ba6",
+                      "Scale": 5,
+                      "DetachedFromModel": true,
+                      "PositionOffset": {
+                        "Z": 1
+                      }
+                    }
+                  ],
+                  "FirstPersonParticles": [
+                    {
+                      "SystemId": "VoidImpact",
+                      "TargetEntityPart": "Self",
+                      "Color": "#810ba6",
+                      "Scale": 5,
+                      "DetachedFromModel": true,
+                      "PositionOffset": {
+                        "Z": 1
+                      }
+                    }
+                  ]
+                },
+                "Next": {
+                  "Type": "BlackoutTimer",
+                  "Action": "Stop"
+                }
+              }
+            },
+            "AdjustHeldItemQuantity": -1
+          }
+        }
+      ]
+    }
+  },
+  "MaxStack": 1
 }

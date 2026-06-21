@@ -1204,7 +1204,6 @@
           }
         }
       },
-      "support": 15,
       "rotation": 1
     },
     {
@@ -1809,6 +1808,26 @@
       "z": 4,
       "name": "BO_Parking_Blacktop",
       "rotation": 7
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 4,
+      "name": "*BO_Speaker_State_Definitions_Active",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Active",
+            "OffState": "Inactive"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      }
     },
     {
       "x": -2,

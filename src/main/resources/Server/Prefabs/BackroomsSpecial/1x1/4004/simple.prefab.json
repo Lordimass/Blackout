@@ -2284,7 +2284,6 @@
           }
         }
       },
-      "support": 15,
       "rotation": 2
     },
     {
@@ -2373,8 +2372,7 @@
       "x": 0,
       "y": 7,
       "z": 5,
-      "name": "BO_Parking_Wall00",
-      "support": 15
+      "name": "BO_Parking_Wall00"
     },
     {
       "x": 0,
@@ -3981,20 +3979,26 @@
     },
     {
       "x": 4,
+      "y": 1,
+      "z": 0,
+      "name": "BO_Parking_Blacktop",
+      "support": 15,
+      "rotation": 3
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "z": 0,
+      "name": "BO_Parking_Blacktop",
+      "support": 15,
+      "rotation": 3
+    },
+    {
+      "x": 4,
       "y": 3,
       "z": 0,
-      "name": "*BO_Iron_Trapdoor_State_Definitions_CloseDoorOut",
-      "components": {
-        "Components": {
-          "BlackoutBunkerHatch": {},
-          "PlacedByInteraction": {
-            "WhoPlacedUuid": {
-              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
-              "$type": "04"
-            }
-          }
-        }
-      },
+      "name": "BO_Parking_Blacktop",
+      "support": 15,
       "rotation": 3
     },
     {

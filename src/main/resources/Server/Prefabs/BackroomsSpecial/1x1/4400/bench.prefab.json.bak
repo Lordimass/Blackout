@@ -1187,6 +1187,27 @@
     },
     {
       "x": -3,
+      "y": 7,
+      "z": 2,
+      "name": "*BO_PA01_State_Definitions_Active",
+      "components": {
+        "Components": {
+          "BlackoutCycleState": {
+            "OnState": "Active",
+            "OffState": "Inactive"
+          },
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "KMPE5JWxSQGC8WI/IkVLQQ==",
+              "$type": "04"
+            }
+          }
+        }
+      },
+      "rotation": 1
+    },
+    {
+      "x": -3,
       "y": 9,
       "z": 2,
       "name": "BO_Parking_Wall03",
@@ -1806,8 +1827,7 @@
             }
           }
         }
-      },
-      "support": 15
+      }
     },
     {
       "x": -2,

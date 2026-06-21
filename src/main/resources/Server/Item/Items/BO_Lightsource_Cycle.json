@@ -31,13 +31,7 @@
     "State": {
       "Definitions": {
         "Day": {
-          "Light": {
-            "Color": "#eee"
-          },
-          "DrawType": "Cube"
-        },
-        "Night": {
-          "Light": {
+           "Light": {
             "Color": "#05d"
           },
           "DrawType": "Cube",
@@ -46,6 +40,12 @@
               "All": "BlockTextures/Dev_Lightsource_Blue_Side.png"
             }
           ]
+        },
+        "Night": {
+          "Light": {
+            "Color": "#eee"
+          },
+          "DrawType": "Cube"
         }
       }
     },

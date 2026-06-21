@@ -1,0 +1,53 @@
+{
+  "Tool": {
+    "Specs": [
+      {
+        "Parent": "Branches"
+      }
+    ],
+    "Speed": 5,
+    "HitSoundLayer": "SFX_Wood_Break"
+  },
+  "BlockType": {
+    "DrawType": "Cube",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Unbreakable"
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "Default",
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "PlaceInEmptyBlocks": false
+    },
+    "IgnoreSupportWhenPlaced": true,
+    "Material": "Solid",
+    "RequiresAlphaBlending": false,
+    "Textures": [
+      {
+        "Sides": "Blocks/bo_pool_surface/bo_pool_surface_cube_texture_arrow_down.png",
+        "UpDown": "Blocks/bo_pool_surface/bo_pool_surface_cube_texture.png",
+        "West": "Blocks/bo_pool_surface/bo_pool_surface_cube_texture_arrow_side_2.png",
+        "East": "Blocks/bo_pool_surface/bo_pool_surface_cube_texture_arrow_side_3.png"
+      }
+    ],
+    "CubeShadingMode": "Reflective"
+  },
+  "Icon": "Icons/ItemsGenerated/BO_Pool_Surface00.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      0,
+      52,
+      24
+    ],
+    "Translation": [
+      4,
+      -12
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Pool Tiles Down"
+  },
+  "Parent": "Rock_Bedrock"
+}

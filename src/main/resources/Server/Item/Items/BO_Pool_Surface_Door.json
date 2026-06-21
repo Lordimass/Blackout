@@ -99,74 +99,9 @@
       }
     },
     "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "ModifyInventory",
-            "RequiredGameMode": "Adventure",
-            "ItemToRemove": {
-              "Id": "BO_Key_Corrupted",
-              "Quantity": 1
-            },
-            "Next": {
-              "Type": "ApplyEffect",
-              "Entity": "Owner",
-              "Effects": {
-                "Particles": [
-                  {
-                    "SystemId": "VoidImpact",
-                    "TargetEntityPart": "Self",
-                    "TargetNodeName": "bone2",
-                    "Color": "#4d10d2",
-                    "Scale": 5,
-                    "DetachedFromModel": true
-                  }
-                ]
-              },
-              "EffectId": "HealthRegen_Buff_T1",
-              "Next": {
-                "Type": "ChangeState",
-                "UseLatestTarget": true,
-                "Changes": {
-                  "default": "unlocked"
-                },
-                "UpdateBlockState": true,
-                "Effects": {
-                  "Particles": [
-                    {
-                      "SystemId": "VoidImpact",
-                      "TargetEntityPart": "Self",
-                      "Color": "#810ba6",
-                      "Scale": 5,
-                      "DetachedFromModel": true,
-                      "PositionOffset": {
-                        "Z": 1
-                      }
-                    }
-                  ],
-                  "FirstPersonParticles": [
-                    {
-                      "SystemId": "VoidImpact",
-                      "TargetEntityPart": "Self",
-                      "Color": "#810ba6",
-                      "Scale": 5,
-                      "DetachedFromModel": true,
-                      "PositionOffset": {
-                        "Z": 1
-                      }
-                    }
-                  ]
-                },
-                "Next": {
-                  "Type": "BlackoutTimer",
-                  "Action": "ClearOffice"
-                }
-              }
-            }
-          }
-        ]
-      }
+      "Use": {}
     },
+    "InteractionHint": "Press [KEY] with a Corrupted Key to dissapate",
     "CustomModelAnimation": "Blocks/bo_pool_surface/BO_Tile_Door_Idle.blockyanim",
     "Looping": true,
     "VariantRotation": "NESW"
@@ -216,8 +151,6 @@
         "RequiresAlphaBlending": false,
         "CubeShadingMode": "Standard",
         "Opacity": "Transparent",
-        "Interactions": {
-        },
         "CustomModel": "Blocks/Decorative_Sets/Temple_Light/Door.blockymodel"
       },
       "Icon": "Icons/ItemsGenerated/BO_Pool_Surface00.png",
