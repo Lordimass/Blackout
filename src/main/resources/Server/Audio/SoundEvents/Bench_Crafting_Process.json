@@ -1,0 +1,16 @@
+{
+  "Layers": [
+    {
+      "RandomSettings": {
+        "MinPitch": -2.928,
+        "MaxPitch": 0.816,
+        "MaxVolume": 0.16,
+        "MinVolume": -2
+      },
+      "Files": [
+        "Sounds/Bench_Crafting_Process.ogg"
+      ],
+      "Looping": true
+    }
+  ]
+}

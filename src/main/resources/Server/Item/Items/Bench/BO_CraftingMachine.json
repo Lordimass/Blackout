@@ -63,7 +63,7 @@
           "Looping": true,
           "Particles": [
             {
-              "SystemId": "Fire_Furnace_On",
+              "SystemId": "Smoke_Fluffy_Floor",
               "TargetNodeName": "Fire",
               "Scale": 0.7,
               "PositionOffset": {
@@ -72,7 +72,7 @@
               }
             }
           ],
-          "AmbientSoundEventId": "SFX_Furnace_Bench_Processing"
+          "AmbientSoundEventId": "Bench_Crafting_Process"
         },
         "ProcessCompleted": {
           "AmbientSoundEventId": "SFX_Furnace_Bench_Processing",
