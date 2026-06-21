@@ -122,7 +122,9 @@
           "CustomModelAnimation": "Blocks/bo_garage_door/bo_garage_door_open.blockyanim"
         }
       }
-    }
+    },
+    "InteractionHint": "Press [KEY] With Remote in Hand to Open Garage",
+    "InteractionHitboxType": "BO_Parking_Garage_Door_BB"
   },
   "Icon": "Icons/ItemsGenerated/BO_Parking_Wall03.png",
   "IconProperties": {

@@ -5971,15 +5971,15 @@
       "x": -3,
       "y": 8,
       "z": -3,
-      "name": "BO_Parking_Wall00",
-      "rotation": 4
+      "name": "BO_Parking_Wall03",
+      "support": 15
     },
     {
       "x": -3,
       "y": 9,
       "z": -3,
-      "name": "BO_Parking_Wall00",
-      "rotation": 4
+      "name": "BO_Parking_Wall03",
+      "support": 15
     },
     {
       "x": -3,
@@ -11014,22 +11014,25 @@
       "x": -2,
       "y": 4,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 29,
+      "rotation": 3
     },
     {
       "x": -2,
       "y": 5,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1053,
+      "rotation": 3
     },
     {
       "x": -2,
       "y": 6,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2077,
+      "rotation": 3
     },
     {
       "x": -2,
@@ -16287,22 +16290,25 @@
       "x": -1,
       "y": 4,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 30,
+      "rotation": 3
     },
     {
       "x": -1,
       "y": 5,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1054,
+      "rotation": 3
     },
     {
       "x": -1,
       "y": 6,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2078,
+      "rotation": 3
     },
     {
       "x": -1,
@@ -21529,22 +21535,25 @@
       "x": 0,
       "y": 4,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 31,
+      "rotation": 3
     },
     {
       "x": 0,
       "y": 5,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1055,
+      "rotation": 3
     },
     {
       "x": 0,
       "y": 6,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2079,
+      "rotation": 3
     },
     {
       "x": 0,
@@ -26992,22 +27001,25 @@
       "x": 1,
       "y": 4,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "support": 15,
+      "rotation": 3
     },
     {
       "x": 1,
       "y": 5,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1024,
+      "rotation": 3
     },
     {
       "x": 1,
       "y": 6,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2048,
+      "rotation": 3
     },
     {
       "x": 1,
@@ -32440,22 +32452,25 @@
       "x": 2,
       "y": 4,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1,
+      "rotation": 3
     },
     {
       "x": 2,
       "y": 5,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1025,
+      "rotation": 3
     },
     {
       "x": 2,
       "y": 6,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2049,
+      "rotation": 3
     },
     {
       "x": 2,
@@ -37680,22 +37695,25 @@
       "x": 3,
       "y": 4,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2,
+      "rotation": 3
     },
     {
       "x": 3,
       "y": 5,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 1026,
+      "rotation": 3
     },
     {
       "x": 3,
       "y": 6,
       "z": -3,
-      "name": "Prototype_Rock_Concrete_Brick_Stairs",
-      "rotation": 2
+      "name": "BO_Parking_Garage_Door",
+      "filler": 2050,
+      "rotation": 3
     },
     {
       "x": 3,
@@ -42949,15 +42967,15 @@
       "x": 4,
       "y": 8,
       "z": -3,
-      "name": "BO_Parking_Wall00",
-      "rotation": 4
+      "name": "BO_Parking_Wall03",
+      "support": 15
     },
     {
       "x": 4,
       "y": 9,
       "z": -3,
-      "name": "BO_Parking_Wall00",
-      "rotation": 4
+      "name": "BO_Parking_Wall03",
+      "support": 15
     },
     {
       "x": 4,
