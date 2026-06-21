@@ -1,0 +1,103 @@
+{
+  "TranslationProperties": {
+    "Name": "Red Crayon",
+    "Description": "Eat It"
+  },
+  "Parent": "Template_Food",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Condition_Consume_Food_T3",
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Health_Regen_Small"
+        }
+      ]
+    }
+  },
+  "Quality": "Uncommon",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "CustomModel": "Items/Crayon/Crayon.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Crayon/Red_Crayon.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#fcde4e",
+    "TextureComputedColor": "#EDBD31"
+  },
+  "InteractionVars": {
+    "Consume_Charge": {
+      "Interactions": [
+        {
+          "Parent": "Consume_Charge_Food_T1_Inner",
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Food_Eat",
+                "Color": "#F9D33F",
+                "TargetNodeName": "Mouth",
+                "TargetEntityPart": "Entity"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_T3"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Milk_Bucket",
+        "Quantity": 1
+      }
+    ],
+    "TimeSeconds": 5,
+    "Output": [
+      {
+        "ItemId": "Food_Cheese",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Container_Bucket",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Cookingbench",
+        "Categories": [
+          "Ingredients"
+        ]
+      }
+    ]
+  },
+  "ItemLevel": 8,
+  "MaxStack": 25,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/BO_Crayon_Red.png"
+}

@@ -20,9 +20,9 @@
       },
       {
         "Type": "Single",
-        "Weight": 3,
+        "Weight": 5,
         "Item": {
-          "ItemId": "Food_Cheese"
+          "ItemId": "BO_Crayon_Blue"
         }
       },
       {
@@ -39,6 +39,27 @@
           "ItemId": "Ingredient_Stick",
           "QuantityMin": 0,
           "QuantityMax": 2
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 1,
+        "Item": {
+          "ItemId": "BO_Crayon_Black"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 3,
+        "Item": {
+          "ItemId": "BO_Crayon_Red"
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 3,
+        "Item": {
+          "ItemId": "BO_Crayon_Yellow"
         }
       }
     ]
