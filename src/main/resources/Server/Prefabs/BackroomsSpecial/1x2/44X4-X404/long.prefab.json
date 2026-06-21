@@ -1475,7 +1475,7 @@
       "x": -3,
       "y": 7,
       "z": 0,
-      "name": "*BO_PA_State_Definitions_Active",
+      "name": "*BO_PA01_State_Definitions_Active",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -1490,6 +1490,7 @@
           }
         }
       },
+      "support": 15,
       "rotation": 1
     },
     {

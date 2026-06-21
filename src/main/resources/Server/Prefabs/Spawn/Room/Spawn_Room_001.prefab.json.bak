@@ -23691,7 +23691,7 @@
       "x": -1,
       "y": 8,
       "z": 18,
-      "name": "*BO_Ceiling_Light00_State_Definitions_On",
+      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -26504,7 +26504,7 @@
       "x": 0,
       "y": 8,
       "z": 17,
-      "name": "*BO_Ceiling_Light00_State_Definitions_On",
+      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -26775,7 +26775,7 @@
       "x": 0,
       "y": 8,
       "z": 19,
-      "name": "*BO_Ceiling_Light00_State_Definitions_On",
+      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -29605,7 +29605,7 @@
       "x": 1,
       "y": 8,
       "z": 18,
-      "name": "*BO_Ceiling_Light00_State_Definitions_On",
+      "name": "*BO_Ceiling_Light00_State_Definitions_Off",
       "components": {
         "Components": {
           "BlackoutCycleState": {
@@ -48871,6 +48871,7 @@
             "Roll": 0.0
           }
         },
+        "FromPrefab": {},
         "PrefabCopyable": {},
         "SpawnSuppression": {
           "SpawnSuppression": "Spawn_Camp"
@@ -48884,7 +48885,7 @@
         },
         "UUID": {
           "UUID": {
-            "$binary": "+unUcvG7NH+jVJGOVzs5Qw==",
+            "$binary": "Kku7sjODOuW3c0vxrwyZ2A==",
             "$type": "04"
           }
         }

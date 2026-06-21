@@ -4503,6 +4503,13 @@
     },
     {
       "x": -3,
+      "y": 21,
+      "z": 0,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": -3,
       "y": 22,
       "z": 0,
       "name": "BO_Pool_Surface00"
@@ -4797,6 +4804,13 @@
     },
     {
       "x": -3,
+      "y": 21,
+      "z": 1,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": -3,
       "y": 22,
       "z": 1,
       "name": "BO_Pool_Surface00"
@@ -5092,6 +5106,13 @@
     },
     {
       "x": -3,
+      "y": 21,
+      "z": 2,
+      "name": "BO_Pool_Surface00",
+      "support": 15
+    },
+    {
+      "x": -3,
       "y": 22,
       "z": 2,
       "name": "BO_Pool_Surface00"
@@ -5384,6 +5405,13 @@
       "y": 20,
       "z": 3,
       "name": "BO_Pool_Surface00"
+    },
+    {
+      "x": -3,
+      "y": 21,
+      "z": 3,
+      "name": "BO_Pool_Surface00",
+      "support": 15
     },
     {
       "x": -3,
@@ -8042,19 +8070,22 @@
       "x": -2,
       "y": 20,
       "z": 2,
-      "name": "BO_Pool_Surface00"
+      "name": "BO_Pool_Surface00",
+      "support": 15
     },
     {
       "x": -2,
       "y": 21,
       "z": 2,
-      "name": "Empty"
+      "name": "BO_Pool_Surface_Door",
+      "support": 15
     },
     {
       "x": -2,
       "y": 22,
       "z": 2,
-      "name": "Empty"
+      "name": "BO_Pool_Surface_Door",
+      "filler": 1024
     },
     {
       "x": -2,
