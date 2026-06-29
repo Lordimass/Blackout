@@ -10,6 +10,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.perl.blackout.world.commands.BlackoutCommand;
+import com.perl.blackout.world.commands.LeaderboardCommand;
 import com.perl.blackout.world.components.BunkerHatchComponent;
 import com.perl.blackout.world.components.CycleStateComponent;
 import com.perl.blackout.world.craft.CraftAltarBreakHandler;
@@ -21,9 +22,14 @@ import com.perl.blackout.world.resources.WorldCycleStateResource;
 import com.perl.blackout.world.systems.CyclePhaseApplySystem;
 import com.perl.blackout.world.systems.CycleStateRefSystem;
 import com.perl.blackout.world.systems.CycleTimeSetSystem;
+import com.perl.blackout.world.leaderboard.LeaderboardClient;
+import com.perl.blackout.world.leaderboard.LeaderboardConfig;
+import com.perl.blackout.world.leaderboard.LeaderboardOptIn;
 import com.perl.blackout.world.timer.BlackoutTimerHeightSystem;
 import com.perl.blackout.world.timer.BlackoutTimerResource;
 import com.perl.blackout.world.timer.BlackoutTimerService;
+
+import java.nio.file.Path;
 
 import javax.annotation.Nullable;
 
@@ -36,8 +42,18 @@ public class WorldPlugin extends JavaPlugin {
     @Nullable
     private static BlackoutTimerService timerService;
 
+    @Nullable
+    private static LeaderboardClient leaderboardClient;
+
+    @Nullable
+    private static LeaderboardOptIn leaderboardOptIn;
+
+    @Nullable
+    private final Path dataDirectory;
+
     public WorldPlugin(JavaPluginInit init) {
         super(init);
+        this.dataDirectory = init.getDataDirectory();
         LOGGER.atInfo().log("Blackout World %s initializing...", init.getPluginManifest().getVersion());
     }
 
@@ -51,10 +67,20 @@ public class WorldPlugin extends JavaPlugin {
         return timerService;
     }
 
+    @Nullable
+    public static LeaderboardClient getLeaderboardClient() {
+        return leaderboardClient;
+    }
+
     @Override
     protected void setup() {
         instance = this;
-        timerService = new BlackoutTimerService();
+
+        leaderboardClient = new LeaderboardClient(LeaderboardConfig.load(dataDirectory), dataDirectory);
+        leaderboardClient.start();
+        leaderboardOptIn = new LeaderboardOptIn(dataDirectory);
+
+        timerService = new BlackoutTimerService(leaderboardClient, leaderboardOptIn);
 
         getEntityStoreRegistry().registerSystem(new CraftAltarPlacementHandler());
         getEntityStoreRegistry().registerSystem(new CraftAltarBreakHandler());
@@ -98,6 +124,8 @@ public class WorldPlugin extends JavaPlugin {
          * Command Stuff
          */
         getCommandRegistry().registerCommand(new BlackoutCommand());
+        getCommandRegistry().registerCommand(
+                new LeaderboardCommand(leaderboardOptIn, leaderboardClient.getDisplayUrl()));
 
         /**
          * Interaction Stuff
@@ -112,6 +140,11 @@ public class WorldPlugin extends JavaPlugin {
 
     @Override
     protected void shutdown() {
+        if (leaderboardClient != null) {
+            leaderboardClient.shutdown();
+            leaderboardClient = null;
+        }
+        leaderboardOptIn = null;
         timerService = null;
         instance = null;
         super.shutdown();

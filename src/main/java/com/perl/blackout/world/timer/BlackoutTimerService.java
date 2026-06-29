@@ -25,6 +25,10 @@ import com.hypixel.hytale.server.core.universe.Universe;
 import com.hypixel.hytale.server.core.universe.world.World;
 import com.hypixel.hytale.server.core.universe.world.spawn.ISpawnProvider;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
+import com.perl.blackout.world.leaderboard.LeaderboardClient;
+import com.perl.blackout.world.leaderboard.LeaderboardMessages;
+import com.perl.blackout.world.leaderboard.LeaderboardOptIn;
+import com.perl.blackout.world.leaderboard.LeaderboardSubmission;
 
 public final class BlackoutTimerService {
     public static final String BACKROOMS_WORLD_NAME = "Backrooms";
@@ -35,6 +39,18 @@ public final class BlackoutTimerService {
 
     @Nonnull
     private final Set<UUID> pendingStarts = ConcurrentHashMap.newKeySet();
+
+    @Nullable
+    private final LeaderboardClient leaderboardClient;
+
+    @Nullable
+    private final LeaderboardOptIn leaderboardOptIn;
+
+    public BlackoutTimerService(@Nullable LeaderboardClient leaderboardClient,
+                                @Nullable LeaderboardOptIn leaderboardOptIn) {
+        this.leaderboardClient = leaderboardClient;
+        this.leaderboardOptIn = leaderboardOptIn;
+    }
 
     public void requestStart(@Nonnull Ref<EntityStore> playerRef, @Nonnull ComponentAccessor<EntityStore> componentAccessor) {
         PlayerRef player = componentAccessor.getComponent(playerRef, PlayerRef.getComponentType());
@@ -66,6 +82,8 @@ public final class BlackoutTimerService {
         if (playerRef == null) {
             return;
         }
+
+        promptLeaderboardConsent(playerRef);
 
         if (!this.pendingStarts.remove(playerRef.getUuid())) {
             return;
@@ -140,6 +158,62 @@ public final class BlackoutTimerService {
         timer.setGarageClearedAt(now);
         World world = componentAccessor.getExternalData().getWorld();
         broadcast(world, buildFinishedMessage(timer, now));
+
+        submitToLeaderboard(player, timer, now);
+    }
+
+    /** Ask a player who hasn't decided yet whether to submit their runs. */
+    private void promptLeaderboardConsent(@Nonnull PlayerRef player) {
+        if (this.leaderboardClient == null || this.leaderboardOptIn == null) {
+            return;
+        }
+        if (this.leaderboardOptIn.status(player.getUuid()) != LeaderboardOptIn.Status.UNDECIDED) {
+            return;
+        }
+        player.sendMessage(LeaderboardMessages.consentPrompt(this.leaderboardClient.getDisplayUrl()));
+    }
+
+    private void submitToLeaderboard(@Nullable PlayerRef player, @Nonnull BlackoutTimerResource timer, @Nonnull Instant finishedAt) {
+        if (this.leaderboardClient == null || player == null) {
+            return;
+        }
+
+        // Submission is opt-in. Skip players who declined; nudge those who never chose.
+        if (this.leaderboardOptIn != null) {
+            LeaderboardOptIn.Status consent = this.leaderboardOptIn.status(player.getUuid());
+            if (consent == LeaderboardOptIn.Status.OPTED_OUT) {
+                return;
+            }
+            if (consent == LeaderboardOptIn.Status.UNDECIDED) {
+                player.sendMessage(Message.join(
+                        LeaderboardMessages.prefix(),
+                        Message.raw(" Run not submitted — type ").color("#C9D1D9"),
+                        Message.raw("/leaderboard optin").color("#A7F3D0").bold(true),
+                        Message.raw(" to join the leaderboard.").color("#C9D1D9")
+                ));
+                return;
+            }
+        }
+
+        LeaderboardSubmission submission = LeaderboardSubmission.fromRun(
+                player.getUuid().toString(),
+                player.getUsername(),
+                timer.getStartedAt(),
+                timer.getOfficeFloorClearedAt(),
+                timer.getPoolFloorClearedAt(),
+                finishedAt);
+        this.leaderboardClient.submit(submission);
+
+        // Offer the player a clickable link to view the public leaderboard.
+        String leaderboardUrl = this.leaderboardClient.getDisplayUrl();
+        if (!leaderboardUrl.isEmpty()) {
+            player.sendMessage(Message.join(
+                    Message.raw("Blackout Timer").color("#F2D16B").bold(true),
+                    Message.raw(" | ").color("#6B7280"),
+                    Message.raw("Click here to view the Leaderboard")
+                            .color("#7DD3FC").bold(true).link(leaderboardUrl)
+            ));
+        }
     }
 
     public int resetAndReturnPlayers(@Nonnull World world, @Nonnull Store<EntityStore> store) {
