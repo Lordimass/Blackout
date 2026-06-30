@@ -33,10 +33,10 @@ public final class LeaderboardConfig {
 
     // Public leaderboard URL the plugin submits to (the mod runs on players'
     // machines, so this must be reachable from anywhere). Auth is the baked hash.
-    private static final String DEFAULT_URL = "https://ev0.tail8bf84a.ts.net";
+    private static final String DEFAULT_URL = "https://leaderboard.ev0media.com";
     // Browser-facing leaderboard URL for the in-chat link a player clicks. Same
     // host today, but kept separate so submit/display can diverge later.
-    private static final String DEFAULT_DISPLAY_URL = "https://ev0.tail8bf84a.ts.net";
+    private static final String DEFAULT_DISPLAY_URL = "https://leaderboard.ev0media.com";
     private static final long DEFAULT_HEARTBEAT_SECONDS = 30L;
 
     // Build identity hash of the official plugin, validated server-side. Baked in
